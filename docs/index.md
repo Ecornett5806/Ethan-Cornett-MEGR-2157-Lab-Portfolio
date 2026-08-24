@@ -8,5 +8,3 @@ Howdy y'all! My name is Ethan Cornett, and I'm a Mechanical Engineering student 
 
 This portfolio documents my work throughout MEGR 2156 and the design decisions behind it. Rather than only showing the finished products, I use each project to document my process, the problems I encountered, the decisions I made, and what I learned along the way.
 ## Explore My Work
-
-[Projects](Labs/) | [About Me](aboutme/) | [Resume](resume/) | [Contact](contact/)
