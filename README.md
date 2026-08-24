@@ -1,24 +1,10 @@
-# MEGR 2157 – Design Portfolio Template
+# MEGR 2157 – Design Portfolio
 
-This repository is an MkDocs site (same engine Fab Academy uses) with the Analyze / Decide / Communicate framework built into every assignment page. The rendered site — with the left-hand navigation to every assignment — lives in `docs/`; this README is just for people working with the repo itself.
+Welcome to my design portfolio.
 
+Howdy y'all! My name is Ethan Cornett, and I'm a Mechanical Engineering student at UNC Charlotte. My interest in engineering started in middle school when I joined VEX Robotics. Nearly nine years later, that experience has grown into a passion for designing, building, and improving things that can make people's lives easier and more efficient.
 
-## Don't do, possible save for later. Preview locally
-
-```bash
-pip install -r requirements.txt
-mkdocs serve
-```
-### sub header
-
-Then open http://127.0.0.1:8000 in your browser. The sidebar nav updates automatically from `mkdocs.yml`.
-
-## Publish
-
-Push to `main` — the included GitHub Actions workflow (`.github/workflows/deploy.yml`) builds the site and publishes it to GitHub Pages automatically.
-
-## Structure
-
+This portfolio documents my work throughout MEGR 2156 and the design decisions behind it. Rather than only showing the finished products, I use each project to document my process, the problems I encountered, the decisions I made, and what I learned along the way.
 ```
 MEGR-2156-7-template/
 ├── .github/
