@@ -8,3 +8,8 @@ source: https://www.addmangroup.com/wp-content/uploads/2024/08/ADDMAN_DfAM-Guide
 I chose overhangs because I think they are interesting and provide a challenge for designers. Some easy ways to work around overhangs are reducing steep angles, rotating the part, or adding supports when necessary. Basically, the designer can either make the overhang easier for the printer to build or orient the part so the overhang can be built up layer by layer instead of printing straight out into empty space.
 
 Source: Prusa Research, Overhangs and bridges.
+ ## Morgans/Lexies notes:
+ Starting with nothing: need to optimize designs. Not using as much material.
+ Bridging: connecting two points together with a connecting part together. Very similar to overhang just connecting the 2 points instead of having one side open.
+ 
+ 
