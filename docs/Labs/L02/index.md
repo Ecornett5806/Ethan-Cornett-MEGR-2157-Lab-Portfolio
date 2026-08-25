@@ -10,6 +10,7 @@ I chose overhangs because I think they are interesting and provide a challenge f
 Source: Prusa Research, Overhangs and bridges.
  ## Morgans/Lexies notes:
  Starting with nothing: need to optimize designs. Not using as much material.
+ 
  Bridging: connecting two points together with a connecting part together. Very similar to overhang just connecting the 2 points instead of having one side open.
  
  
