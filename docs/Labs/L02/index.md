@@ -12,5 +12,15 @@ Source: Prusa Research, Overhangs and bridges.
  Starting with nothing: need to optimize designs. Not using as much material.
  
  Bridging: connecting two points together with a connecting part together. Very similar to overhang just connecting the 2 points instead of having one side open.
- 
+## Download
+<img width="1878" height="988" alt="Screenshot 2026-08-28 210720" src="https://github.com/user-attachments/assets/d08f7c1f-3dc9-44d5-8f27-a2003b45cff2" />
+The first print I considered was the model shown below. I ultimately decided against it because I thought it would be somewhat wasteful to print. In order to make the model a reasonable size, it would require a significant amount of material and would also take a long time to print.
+
+The print I ultimately chose was a table hockey puck, which was similar to the first model but had a much flatter design.
+
+<img width="2290" height="1118" alt="Screenshot 2026-08-28 210918" src="https://github.com/user-attachments/assets/9858ad2d-1fe2-49bc-b5b0-f4f2cdec204b" />
+
+I chose this because I am a avid hockey fan and because its flatter and doesn't use as much Material it took less time to print and therefore made our collective time required to print much lower. 
+I chose this model for two main reasons. First, I am an avid hockey fan, so I thought it would be more interesting to print something related to one of my interests. Second, the flatter geometry required less material and resulted in a shorter print time. This made the hockey puck a more efficient choice and reduced the amount of time our group collectively needed to spend printing.
+
  
