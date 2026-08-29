@@ -45,12 +45,12 @@ At the beginning of the process, I got confused about how to select the correct 
 ## Print 
 
 My group chose to use was PL-05 which uses PETG filament. 
+
 My group consisted of Morgan Gregory and Lexie Cox:
 
+https://drive.google.com/file/d/1xxeeVpDYUkhXcl_19Z5VeJgylWNX0_UJ/view?usp=sharing
 
-<img width="3024" height="4032" alt="IMG_1392" src="https://github.com/user-attachments/assets/4fb53ac7-8f77-4550-9391-62f4a3381c77" />
-<https://drive.google.com/file/d/1xxeeVpDYUkhXcl_19Z5VeJgylWNX0_UJ/view?usp=sharing/>
 <img width="3024" height="4032" alt="IMG_1390" src="https://github.com/user-attachments/assets/f7079f10-2689-41ed-a74b-f40c776b5ccb" />
 
-
+<img width="3024" height="4032" alt="IMG_1392" src="https://github.com/user-attachments/assets/4fb53ac7-8f77-4550-9391-62f4a3381c77" />
 
