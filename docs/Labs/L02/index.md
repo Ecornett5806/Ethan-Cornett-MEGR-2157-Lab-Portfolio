@@ -14,6 +14,7 @@ Source: Prusa Research, Overhangs and bridges.
  Bridging: connecting two points together with a connecting part together. Very similar to overhang just connecting the 2 points instead of having one side open.
 ## Download
 <img width="900" height="988" alt="Screenshot 2026-08-28 210720" src="https://github.com/user-attachments/assets/d08f7c1f-3dc9-44d5-8f27-a2003b45cff2" />
+
 The first print I considered was the model shown below. I ultimately decided against it because I thought it would be somewhat wasteful to print. In order to make the model a reasonable size, it would require a significant amount of material and would also take a long time to print.
 
 The print I ultimately chose was a table hockey puck, which was similar to the first model but had a much flatter design.
