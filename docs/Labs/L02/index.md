@@ -40,6 +40,8 @@ The bottom row in the screenshot above shows the scaling changes I made to the m
 
 This is the Sliced Info for my puck:
 
+After slicing the puck in PrusaSlicer, the estimated printing time was 19 minutes in normal mode and 21 minutes in stealth mode. The print used approximately 10.16 g of PETG filament, or 3.33 m of filament, with an estimated material cost of $0.28.
+
 <img width="444" height="326" alt="image" src="https://github.com/user-attachments/assets/f1704d7d-b51c-46d8-af00-e40107bb6452" />
 
 And the estimated time for each section: 
