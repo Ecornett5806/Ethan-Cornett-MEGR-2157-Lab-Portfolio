@@ -27,7 +27,8 @@ The print I ultimately chose was a table hockey puck, which was similar to the f
 
 I chose this model for two main reasons. First, I am an avid hockey fan, so I thought it would be more interesting to print something related to one of my interests. Second, the flatter geometry required less material and resulted in a shorter print time. This made the hockey puck a more efficient choice and reduced the amount of time our group collectively needed to spend printing. I only considered two designs because we had limited time and needed the print to finish within the 40-minute constraint.
 
- ## Preprocessor
+## Preprocessor
+
 Since a hockey puck has a flat top and bottom, I decided to keep the puck flat against the build plate. This orientation made the most sense because it provided a stable base for the print and did not require the model to be rotated into a more complicated orientation.
 
 I also scaled the puck down to around half of its original size. I did this because our prints had to fit within a 40-minute time constraint. Making the puck smaller reduced the amount of material needed and significantly reduced the print time. This also allowed enough space and time for Lexie's and Morgan's prints to be included in the same printing process.
@@ -54,6 +55,7 @@ Given that my design was flat and had no significant overhangs, supports were no
 At the beginning of the process, I got confused about how to select the correct printer and material in PrusaSlicer. I had to spend some time figuring out which settings to use before continuing with the print. After figuring it out, I was able to continue with the rest of the process without any major issues. This taught me that selecting the correct printer and material is an important first step before preparing a model for printing.
 
 ## Print 
+
 My group used Printer PL-05, which uses PETG filament.
 
 My group consisted of Morgan Gregory and Lexie Cox. We printed our parts together to make the most efficient use of the printer and stay within the available printing time.
