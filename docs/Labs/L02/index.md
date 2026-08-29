@@ -43,12 +43,14 @@ Given that my design was flat and had no significant overhangs, supports were no
 At the beginning of the process, I got confused about how to select the correct printer and material in PrusaSlicer. I had to spend some time figuring out which settings to use before continuing with the print. After figuring it out, I was able to continue with the rest of the process without any major issues. This taught me that selecting the correct printer and material is an important first step before preparing a model for printing.
 
 ## Print 
+My group used Printer PL-05, which uses PETG filament.
 
-My group chose to use was PL-05 which uses PETG filament. 
+My group consisted of Morgan Gregory and Lexie Cox. We printed our parts together to make the most efficient use of the printer and stay within the available printing time.
 
-My group consisted of Morgan Gregory and Lexie Cox:
-
+Video of our prints being created:
 https://drive.google.com/file/d/1xxeeVpDYUkhXcl_19Z5VeJgylWNX0_UJ/view?usp=sharing
+
+My print did not come out quite as well as I originally expected. I believe this was partly because the model was essentially a disk with only a slight change in height, and I had scaled it down to a very small size. This made the small changes in height and geometry more difficult for the printer to reproduce clearly.
 
 <img width="3024" height="4032" alt="IMG_1390" src="https://github.com/user-attachments/assets/f7079f10-2689-41ed-a74b-f40c776b5ccb" />
 
