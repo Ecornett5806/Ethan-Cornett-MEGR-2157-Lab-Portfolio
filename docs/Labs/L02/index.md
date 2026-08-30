@@ -64,9 +64,6 @@ Video of our prints being created:
 
 https://drive.google.com/file/d/1xxeeVpDYUkhXcl_19Z5VeJgylWNX0_UJ/view
 
-<iframe src="https://drive.google.com/file/d/1xxeeVpDYUkhXcl_19Z5VeJgylWNX0_UJ/preview" width="100%" height="500" allow="autoplay"> </iframe>
-
-
 <img width="3024" height="4032" alt="IMG_1390" src="https://github.com/user-attachments/assets/f7079f10-2689-41ed-a74b-f40c776b5ccb" />
 
 My print did not come out quite as well as I originally expected. I believe this was partly because the model was essentially a disk with only a slight change in height, and I had scaled it down to a very small size. This made the small changes in height and geometry more difficult for the printer to reproduce clearly.
