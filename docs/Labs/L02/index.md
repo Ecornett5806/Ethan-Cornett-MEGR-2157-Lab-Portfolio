@@ -17,13 +17,13 @@ Source: Prusa Research, Overhangs and bridges.
 ## Lab #2 Make Something Small
 
 ## Download
-<img width="900" height="988" alt="Screenshot 2026-08-28 210720" src="https://github.com/user-attachments/assets/d08f7c1f-3dc9-44d5-8f27-a2003b45cff2" />
+<img width="700" height="700" alt="Screenshot 2026-08-28 210720" src="https://github.com/user-attachments/assets/d08f7c1f-3dc9-44d5-8f27-a2003b45cff2" />
 
 The first print I considered was the model shown above. I ultimately decided against it because I thought it would be somewhat wasteful to print. In order to make the model a reasonable size, it would require a significant amount of material and would also take a long time to print.
 
 The print I ultimately chose was a table hockey puck, which was similar to the first model but had a much flatter design.
 
-<img width="900" height="1118" alt="Screenshot 2026-08-28 210918" src="https://github.com/user-attachments/assets/9858ad2d-1fe2-49bc-b5b0-f4f2cdec204b" />
+<img width="700" height="700" alt="Screenshot 2026-08-28 210918" src="https://github.com/user-attachments/assets/9858ad2d-1fe2-49bc-b5b0-f4f2cdec204b" />
 
 I chose this model for two main reasons. First, I am an avid hockey fan, so I thought it would be more interesting to print something related to one of my interests. Second, the flatter geometry required less material and resulted in a shorter print time. This made the hockey puck a more efficient choice and reduced the amount of time our group collectively needed to spend printing. I only considered two designs because we had limited time and needed the print to finish within the 40-minute constraint.
 
@@ -33,7 +33,7 @@ Since a hockey puck has a flat top and bottom, I decided to keep the puck flat a
 
 I also scaled the puck down to around half of its original size. I did this because our prints had to fit within a 40-minute time constraint. Making the puck smaller reduced the amount of material needed and significantly reduced the print time. This also allowed enough space and time for Lexie's and Morgan's prints to be included in the same printing process.
 
-<img width="1718" height="842" alt="Screenshot 2026-08-28 211743" src="https://github.com/user-attachments/assets/dc5f228a-71bc-4167-8081-80324d5500a7" />
+<img width="700" height="700" alt="Screenshot 2026-08-28 211743" src="https://github.com/user-attachments/assets/dc5f228a-71bc-4167-8081-80324d5500a7" />
 
 The bottom row in the screenshot above shows the scaling changes I made to the model. I adjusted the dimensions until the puck was small enough to meet the time requirement while still being large enough to function as a table hockey puck.
 
