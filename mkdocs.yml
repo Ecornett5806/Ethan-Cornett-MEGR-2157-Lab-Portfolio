@@ -2,13 +2,15 @@ site_name: MEGR 2157 Lab – Design Portfolio
 site_description: Lab Design portfolio documentation
 
 theme:
+
   name: material
   palette:
     primary: red
   features:
     - navigation.instant
     - navigation.tracking
-
+markdown_extensions:
+  - md_in_html
 nav:
   - Home: index.md
   - About Me: aboutme/index.md
