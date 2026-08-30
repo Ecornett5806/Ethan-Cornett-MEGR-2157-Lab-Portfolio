@@ -62,11 +62,7 @@ My group consisted of Morgan Gregory and Lexie Cox. We printed our parts togethe
 
 Video of our prints being created:
 
-<iframe src="https://drive.google.com/file/d/1xxeeVpDYUkhXcl_19Z5VeJgylWNX0_UJ/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay">
-</iframe>
+[![3D Printing Video](images/print-video-thumbnail.jpg)](https://drive.google.com/file/d/1xxeeVpDYUkhXcl_19Z5VeJgylWNX0_UJ/view)
 
 <iframe src="https://drive.google.com/file/d/1xxeeVpDYUkhXcl_19Z5VeJgylWNX0_UJ/preview" width="100%" height="500" allow="autoplay"> </iframe>
 
