@@ -54,6 +54,9 @@ Given that my design was flat and had no significant overhangs, supports were no
 
 At the beginning of the process, I got confused about how to select the correct printer and material in PrusaSlicer. I had to spend some time figuring out which settings to use before continuing with the print. After figuring it out, I was able to continue with the rest of the process without any major issues. This taught me that selecting the correct printer and material is an important first step before preparing a model for printing.
 
+## My Role in the Printing Process
+I was not put in charge of operating the 3D printer. However, throughout the printing process, I completed the part that I was responsible for. I found my model and adjusted it to a reasonable size so that all three prints could be completed within the 40-minute time limit. I also prepared my model in PrusaSlicer and made the necessary adjustments before it was printed.
+
 ## Print 
 
 My group used Printer PL-05, which uses PETG filament.
