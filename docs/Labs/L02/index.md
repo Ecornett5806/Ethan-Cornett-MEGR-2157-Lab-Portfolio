@@ -78,7 +78,11 @@ My group consisted of Morgan Gregory and Lexie Cox. We printed our parts togethe
 
 Video of our prints being created:
 
-https://github.com/user-attachments/assets/193cf6e2-9a33-4c1a-bd7a-874da468cdaf
+
+
+https://github.com/user-attachments/assets/6452f98c-9588-44cd-9cac-12c5cbe6ee90
+
+
 
 <img width="3024" height="4032" alt="IMG_1390" src="https://github.com/user-attachments/assets/f7079f10-2689-41ed-a74b-f40c776b5ccb" />
 
