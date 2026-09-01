@@ -9,10 +9,6 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-
-    markdown_extensions:
-  - attr_list
-  - md_in_html
 nav:
   - Home: index.md
   - About Me: aboutme/index.md
