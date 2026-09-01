@@ -14,7 +14,7 @@ Source: Prusa Research, Overhangs and bridges.
  
  Bridging: connecting two points together with a connecting part together. Very similar to overhang just connecting the 2 points instead of having one side open.
 
-## Lab #2 Make Something Small
+# Lab #2 Make Something Small
 
 ## Download
 
