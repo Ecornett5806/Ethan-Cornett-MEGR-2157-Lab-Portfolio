@@ -1,3 +1,4 @@
+
 Lab 2:
 the one design rule I researched, and saw was to limit Minimize Supports and Optimize Orientation:
 My research along with personal experience while 3d printing has led me to learn that the more support you have to use the worst looking and more wasteful your design becomes. a way to fix this s orientating your part to be flat or use less supports will lead to your part being less warped. 
@@ -77,7 +78,7 @@ My group consisted of Morgan Gregory and Lexie Cox. We printed our parts togethe
 
 Video of our prints being created:
 
-https://github.com/user-attachments/assets/2685956a-0aca-4a02-a47d-ffd0628e7aca
+https://github.com/user-attachments/assets/193cf6e2-9a33-4c1a-bd7a-874da468cdaf
 
 <img width="3024" height="4032" alt="IMG_1390" src="https://github.com/user-attachments/assets/f7079f10-2689-41ed-a74b-f40c776b5ccb" />
 
