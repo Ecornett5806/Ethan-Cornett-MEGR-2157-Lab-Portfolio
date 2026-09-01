@@ -9,7 +9,6 @@ theme:
     - navigation.instant
     - navigation.tracking
 
-    
 nav:
   - Home: index.md
   - About Me: aboutme/index.md
