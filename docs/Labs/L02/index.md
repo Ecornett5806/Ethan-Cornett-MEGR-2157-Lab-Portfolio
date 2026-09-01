@@ -37,8 +37,7 @@ I also scaled the puck down to around half of its original size. I did this beca
 
 The bottom row in the screenshot above shows the scaling changes I made to the model. I adjusted the dimensions until the puck was small enough to meet the time requirement while still being large enough to function as a table hockey puck.
 
-<img width="686" height="402" alt="Screenshot 2026-08-28 211952" src="https://github.com/user-attachments/assets/532e9e7c-459e-4eed-83a6-aff8ecfb086f" />
-
+<img width="3024" height="4032" alt="80991044019__6C9BA463-5801-4E83-A11E-9A3800D88544" src="https://github.com/user-attachments/assets/eaa645af-b3db-4a44-89f9-93f82df6a2f8" />
 This is the Sliced Info for my puck:
 
 After slicing the puck in PrusaSlicer, the estimated printing time was 19 minutes in normal mode and 21 minutes in stealth mode. The print used approximately 10.16 g of PETG filament, or 3.33 m of filament, with an estimated material cost of $0.28.
