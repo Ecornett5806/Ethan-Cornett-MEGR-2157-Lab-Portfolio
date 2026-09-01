@@ -80,7 +80,6 @@ Video of our prints being created:
 
 <video controls width="640">
   <source src="IMG_1176.mp4" type="video/mp4">
-  Your browser does not support the video tag.
 </video>
 
 <img width="3024" height="4032" alt="IMG_1390" src="https://github.com/user-attachments/assets/f7079f10-2689-41ed-a74b-f40c776b5ccb" />
