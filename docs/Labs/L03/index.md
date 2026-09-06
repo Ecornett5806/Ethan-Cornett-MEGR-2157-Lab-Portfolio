@@ -39,3 +39,14 @@ Lightning infill uses a branching, tree-like geometry rather than filling the en
 Stars infill is based on the triangular pattern, but the paths are shifted to create repeating six-pointed star shapes. The lines cross within each layer, creating a more complex internal geometry than the basic triangle pattern. Stars infill is useful when a printer needs a structured internal pattern while maintaining similar material usage and print time to Triangle infill. Its geometry also gives the printed part internal support without requiring the entire interior to be solid.
 
 how does infill percentage affect mechanical properties, and how do different infill patterns affect mechanical properties?
+
+Infill percentage has a significant effect on the mechanical properties of a 3D-printed part. As the infill percentage increases, more material is placed inside the part and the amount of empty space decreases. This generally increases the part's strength and stiffness while also increasing its weight, material usage, and print time. However, increasing the infill percentage is not always the most efficient way to strengthen a part because the number of outer walls can also have a major effect on strength.
+
+The infill pattern also affects the mechanical properties because it determines how the material is arranged inside the part. Different patterns distribute forces differently and can provide different levels of strength, stiffness, flexibility, and resistance to deformation. For example, Triangle infill creates a rigid triangular structure, while Lightning infill uses a branching structure that prioritizes saving material and print time rather than maximizing strength. Therefore, selecting an infill pattern depends on the intended use of the part and the type of loading it will experience.
+
+Overall, infill percentage determines how much material is used inside the part, while infill pattern determines **how that material is arranged**. Both factors can affect the final mechanical performance of a 3D-printed component.
+
+## Preprocessor and Printing
+
+
+
