@@ -48,5 +48,34 @@ Overall, infill percentage determines how much material is used inside the part,
 
 ## Preprocessor and Printing
 
+After completing the CAD model, I exported the cross as an STL file and imported it into PrusaSlicer. From there, I prepared the model for printing by selecting the appropriate printer and material, choosing the build orientation, setting the infill, adjusting the wall thickness, and checking the estimated print time.
 
+## Build Orientation
 
+I chose to print the cross flat against the build plate. This orientation was selected because the cross has a large, flat surface that can sit directly on the print bed. Printing it flat also reduced the need for supports because there were no significant overhangs that required additional material underneath the model. This orientation also allowed the cross to be printed within the height restrictions of the assignment.
+
+## Scaling
+I set my scale to 13% of the original size due to the amount of time the slicer said it would take to finish the cross, I believe the scaling was so dramatic because Creo was not set to inches so my dimensions were all off. 
+
+## Infill 
+
+For my final print, I used monotone lines at 30% infill. This was different from the default setting because I wanted to examine how the internal structure could affect the final part. I selected this pattern because I feel like it fir the idea that the cross is straight lines so having a simple, consistent internal structure while producing a clean surface finish.
+
+The following Image shows the exact specifications for my infill. 
+
+<img width="938" height="356" alt="image" src="https://github.com/user-attachments/assets/5880782c-ccb1-42a7-bf5b-b1c45b11162a" />
+
+Wall Thickness:
+I didn't change my wall thickness at all because A cross is supposed to be constant thickness throughout.
+
+Here was my thickness specifications:
+
+<img width="1338" height="1050" alt="Screenshot 2026-09-06 124045" src="https://github.com/user-attachments/assets/1926f1c9-8021-4dd5-aaf4-36dc1846207c" />
+
+Skirt
+
+I added a skirt around the outside of the cross. The skirt does not physically connect to the part. Its purpose is to allow the printer to prime the nozzle before beginning the actual print. It also gives me an opportunity to visually check the first extrusion and make sure the filament is flowing properly before the cross begins printing.
+
+I used a skirt with a 6 mm distance from the object. The skirt was printed around the cross without touching the actual part. I used the skirt to prime the nozzle and verify that the filament was extruding properly before the print began. I did not use a brim because the cross had a large flat surface in contact with the build plate, so additional adhesion from a brim was not necessary. The brim width was set to 0 mm.
+
+<img width="920" height="406" alt="Screenshot 2026-09-06 124256" src="https://github.com/user-attachments/assets/e43095f2-ee29-4bdf-b9d7-3ac45516e485" />
