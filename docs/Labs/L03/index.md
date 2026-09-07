@@ -110,7 +110,6 @@ Print Specifications:
 - **Overhangs:** None
 - **Supports:** None
 
-  
 <img width="652" height="368" alt="image" src="https://github.com/user-attachments/assets/80d7c350-3fd2-4bd8-b975-8eb4eb3f553f" />
 
 This image shows the final size of my cross after importing it into PrusaSlicer. As shown, the final dimensions were significantly smaller and thinner than the maximum dimensions allowed by the design constraints. This resulted from the CAD sizing error discussed in my Mistakes Made and Lessons Learned section. I corrected the overall size in PrusaSlicer by scaling the model to 13% so that the print could be completed within a reasonable amount of time.
@@ -121,9 +120,7 @@ Neither overhangs nor supports were used for this design because the cross was d
 
 ## Video of our prints being made: 
 
-
 <video controls width="320" src="https://github.com/user-attachments/assets/100210ac-6f99-4a26-ae80-2ef7fe75b4d8"></video>
-
 
 ## Mistakes made and Lessons learned: 
 
