@@ -95,8 +95,7 @@ We used Printer PC-16 material with PETG
 
 Video of our prints being made: 
 
-https://github.com/user-attachments/assets/2f971105-36d0-4223-aa21-dbbd54cef128
-
+<video controls width="320" src="https://github.com/user-attachments/assets/26569976-976c-4ac4-a78b-b3c9d1d9d32d"></video>
 ## Mistakes made and Lessons learned: 
 
 One mistake I caught during the project was an issue with the sizing of my model. I realized that the dimensions in Creo were not set correctly, which caused the model to be much larger than intended. I noticed the problem when I brought the model into PrusaSlicer and saw that the print would take much longer than expected. I corrected this by scaling the model down to 13% in PrusaSlicer so that it would fit within the project requirements and have a reasonable print time.
