@@ -88,6 +88,7 @@ I added a skirt around the outside of the cross. The skirt does not physically c
 I used a skirt with a 6 mm distance from the object. The skirt was printed around the cross without touching the actual part. I used the skirt to prime the nozzle and verify that the filament was extruding properly before the print began. I did not use a brim because the cross had a large flat surface in contact with the build plate, so additional adhesion from a brim was not necessary. The brim width was set to 0 mm.
 
 <img width="820" height="306" alt="Screenshot 2026-09-06 124256" src="https://github.com/user-attachments/assets/e43095f2-ee29-4bdf-b9d7-3ac45516e485" />
+
 ## Print 
 We used Printer PC-16 material with PETG
 
