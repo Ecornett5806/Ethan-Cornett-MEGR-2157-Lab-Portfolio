@@ -6,16 +6,26 @@ How does percentage infill affect mechanical properties?
 Infill percentage determines the density of the internal structure and the ratio of solid material to air space inside the part. A higher percentage results in a stronger, heavier component that requires more filament and a longer print duration.
 
 How do different infill patterns affect mechanical properties?
-Different patterns determine how much force and distributed load the part can take. For example, a honeycomb is extremely strong because of its ability to distribute loads across the entire surface area. 
+Different patterns determine how much force and distributed load the part can take.For example, honeycomb patterns can provide good strength-to-weight performance because their geometry distributes loads through the internal structure
 
 Why use different wall thicknesses?
 
-Wall thicknesses determine how much structural load and stress a part can handle, as the outer shells bear the majority of external forces. Increasing wall thickness significantly boosts a part's overall strength and makes it watertight or airtight, while fewer walls save material and print time for lightweight designs.
+Wall thickness affects how much structural load a part can withstand because the outer walls contribute significantly to the part's strength and stiffness.
 
 ## Design Process: 
 
-I initially considered designing an arrowhead, but after reviewing the project constraints that prohibited weapons, I abandoned the idea during the early brainstorming phase.
-My second idea was a Celtic knot, but it proved to be overly complex for the current scope, so it did not progress past the initial planning stage.
+Initial Design Idea – Arrowhead
+I initially considered an arrowhead as a possible design, but I abandoned the idea after reviewing the project constraints prohibiting weapons.
+Source: Tinkercad – Arrowhead https://www.tinkercad.com/things/8sGwgCVDIRh-arrowhead
+
+<img width="525" height="253" alt="t725" src="https://github.com/user-attachments/assets/c5d73939-42e3-45be-9cc0-bce70567bc25" />
+
+and Celtic Knot looks like this: 
+Initial Design Idea – Celtic Knot
+My second idea was a Celtic knot. I decided not to continue with this design because the geometry was more complex than I wanted for the scope of this project.
+Source: FreeSVG – Simple Celtic Knot Outlinehttps://freesvg.org/simple-celtic-knot-outline
+
+<img width="600" height="530" alt="smplecelticknotoutline" src="https://github.com/user-attachments/assets/6a9d069e-d1f3-467d-b027-9a5ce798bc9b" />
 
 While looking at the cross necklace around my neck, I realized it was the ideal subject. The cross features a clean, simple geometry that translates well to 3D design, and it holds deep personal significance as a reflection of my Christian faith.
 
@@ -68,7 +78,7 @@ I set my scale to 13% of the original size due to the amount of time the slicer 
 
 ## Infill 
 
-For my final print, I used monotone lines at 30% infill. This was different from the default setting because I wanted to examine how the internal structure could affect the final part. I selected this pattern because I feel like it fir the idea that the cross is straight lines so having a simple, consistent internal structure while producing a clean surface finish.
+For my final print, I used monotone lines at 30% infill. This was different from the default setting because I wanted to examine how the internal structure could affect the final part.I selected this pattern because I felt that it fit the design of the cross. Since the cross is made primarily of straight lines, I chose a simple and consistent internal structure.
 
 The following Image shows the exact specifications for my infill. 
 
@@ -91,9 +101,25 @@ I used a skirt with a 6 mm distance from the object. The skirt was printed aroun
 
 ## Print 
 
-We used Printer PC-16 material with PETG
+For the final print, I used Printer PC-16 with PETG material. Our total print time was approximately 23 minutes.
 
-Video of our prints being made: 
+Print Specifications:
+- **Printer:** PC-16
+- **Material:** PETG
+- **Maximum allowed dimensions:** 1.5 in × 1.5 in × 0.5 in
+- **Overhangs:** None
+- **Supports:** None
+
+  
+<img width="652" height="368" alt="image" src="https://github.com/user-attachments/assets/80d7c350-3fd2-4bd8-b975-8eb4eb3f553f" />
+
+This image shows the final size of my cross after importing it into PrusaSlicer. As shown, the final dimensions were significantly smaller and thinner than the maximum dimensions allowed by the design constraints. This resulted from the CAD sizing error discussed in my Mistakes Made and Lessons Learned section. I corrected the overall size in PrusaSlicer by scaling the model to 13% so that the print could be completed within a reasonable amount of time.
+
+## Overhangs or supports 
+
+Neither overhangs nor supports were used for this design because the cross was designed with a flat bottom surface. The entire back surface of the cross was placed directly on the printer bed, which allowed the model to be printed without support material. This orientation also simplified the printing process and reduced unnecessary material usage.
+
+## Video of our prints being made: 
 
 
 <video controls width="320" src="https://github.com/user-attachments/assets/100210ac-6f99-4a26-ae80-2ef7fe75b4d8"></video>
@@ -109,7 +135,7 @@ In future projects, I will take more time during the CAD portion to make sure th
 
 I would also improve how I document my design process. Instead of only documenting the successful design, I would take screenshots of failed or unfinished designs and include images of similar designs that influenced my ideas. This would better show the progression from my original idea to the final product.
 
-The total time I spent on this project was approximately 4 hours. About 10 minutes were spent brainstorming ideas, 10 minutes creating the CAD model in Creo, and approximately 5 minutes correcting CAD mistakes. Preparing the model in PrusaSlicer took approximately 2–3 minutes. Printing took approximately 20 minutes for all three of our prints. The largest amount of time was spent documenting the project, which took approximately 3–4 hours. This showed me that documentation can take significantly longer than the actual design and printing process, so I need to plan time for documentation throughout the project rather than completing it all at the end.
+The total time I spent on this project was approximately 4 hours. About 10 minutes were spent brainstorming ideas, 10 minutes creating the CAD model in Creo, and approximately 5 minutes correcting CAD mistakes. Preparing the model in PrusaSlicer took approximately 2–3 minutes. Printing took approximately 23 minutes for all three of our prints. The largest amount of time was spent documenting the project, which took approximately 3–4 hours. This showed me that documentation can take significantly longer than the actual design and printing process, so I need to plan time for documentation throughout the project rather than completing it all at the end.
 
 If I were to scale this design up and use it as a structural or safety-critical component, I would not consider my current design reliable enough. The uneven geometry and lack of symmetry could make the part less stable and cause it to deform or fail under a significant load. Although the cross shape has historical significance because crosses were used for crucifixion, the shape itself does not guarantee structural stability. Before using a 3D-printed component for a safety-critical application, I would need to carefully verify the dimensions, material, wall thickness, infill, loading conditions, and safety factor. I would also need to test the part before trusting it with an important load.
 
@@ -124,4 +150,12 @@ Used for information regarding the Triangle, Stars, and Lightning infill pattern
 
 Fine Homebuilding – Fixing a House With a Bad Foundation:
 https://www.finehomebuilding.com/1996/09/01/fixing-a-house-with-a-bad-foundation?utm_source=chatgpt.com
-Used for the foundation image and as a visual example of how foundation problems can affect a house.
+Used as a visual example of foundation problems for the real-world engineering connection.
+
+Tinkercad – Arrowhead
+ https://www.tinkercad.com/things/8sGwgCVDIRh-arrowhead
+Used as a visual reference for my initial arrowhead design idea.
+
+FreeSVG – Simple Celtic Knot Outline
+Outlinehttps://freesvg.org/simple-celtic-knot-outline
+Used as a visual reference for my second design idea.
