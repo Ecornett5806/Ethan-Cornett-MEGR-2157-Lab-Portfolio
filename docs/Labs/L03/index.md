@@ -95,5 +95,3 @@ Video of our prints being made:
 https://github.com/user-attachments/assets/2f971105-36d0-4223-aa21-dbbd54cef128
 
 <img width="820" height="306" alt="Screenshot 2026-09-06 124256" src="https://github.com/user-attachments/assets/e43095f2-ee29-4bdf-b9d7-3ac45516e485" />
-
-## Print: 
