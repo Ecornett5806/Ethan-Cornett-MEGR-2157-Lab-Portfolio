@@ -97,3 +97,29 @@ Video of our prints being made:
 
 https://github.com/user-attachments/assets/2f971105-36d0-4223-aa21-dbbd54cef128
 
+## Mistakes made and Lessons learned: 
+
+One mistake I caught during the project was an issue with the sizing of my model. I realized that the dimensions in Creo were not set correctly, which caused the model to be much larger than intended. I noticed the problem when I brought the model into PrusaSlicer and saw that the print would take much longer than expected. I corrected this by scaling the model down to 13% in PrusaSlicer so that it would fit within the project requirements and have a reasonable print time.
+
+A mistake I could have easily missed was the uneven and asymmetrical shape of my cross. Because I rushed through the CAD portion, I did not spend enough time checking that each section was properly sized and symmetrical. Although the part was still printable, the uneven geometry affected the appearance of the final product. In the future, I would take more time to check the symmetry and dimensions of the CAD model before exporting it to PrusaSlicer.
+
+In future projects, I will take more time during the CAD portion to make sure the final part is properly designed and meets all of the project constraints. I will also verify that my units are correct in Creo, especially making sure the model is being designed in inches rather than millimeters. Before moving the model into PrusaSlicer, I will double-check the dimensions and symmetry of the part.
+
+I would also improve how I document my design process. Instead of only documenting the successful design, I would take screenshots of failed or unfinished designs and include images of similar designs that influenced my ideas. This would better show the progression from my original idea to the final product.
+
+The total time I spent on this project was approximately 4 hours. About 10 minutes were spent brainstorming ideas, 10 minutes creating the CAD model in Creo, and approximately 5 minutes correcting CAD mistakes. Preparing the model in PrusaSlicer took approximately 2–3 minutes. Printing took approximately 20 minutes for all three of our prints. The largest amount of time was spent documenting the project, which took approximately 3–4 hours. This showed me that documentation can take significantly longer than the actual design and printing process, so I need to plan time for documentation throughout the project rather than completing it all at the end.
+
+If I were to scale this design up and use it as a structural or safety-critical component, I would not consider my current design reliable enough. The uneven geometry and lack of symmetry could make the part less stable and cause it to deform or fail under a significant load. Although the cross shape has historical significance because crosses were used for crucifixion, the shape itself does not guarantee structural stability. Before using a 3D-printed component for a safety-critical application, I would need to carefully verify the dimensions, material, wall thickness, infill, loading conditions, and safety factor. I would also need to test the part before trusting it with an important load.
+
+A real-world example that connects to this project is a house foundation. If a foundation is not designed or built properly, it may not be strong enough to support the rest of the house. Problems with the foundation can cause the structure above it to shift, crack, or become unstable. This relates to my 3D-printed cross because both situations show the importance of checking the overall design, dimensions, material, and structural requirements before relying on a component. In a safety-critical application, I would need to use proper engineering calculations, safety factors, material specifications, and testing rather than assuming that a part will be strong enough based only on how it looks.
+
+<img width="1040" height="547" alt="Fixing-a-House-With-a-Bad-Foundation" src="https://github.com/user-attachments/assets/2b3dac8c-f020-4270-b633-5240a8f13763" />
+
+Sources: 
+Prusa Research – Infill Patterns
+https://help.prusa3d.com/article/infill-patterns_177130?product=mk3-9s&utm_source=chatgpt.com
+Used for information regarding the Triangle, Stars, and Lightning infill patterns, including their geometry and printing characteristics.
+
+Fine Homebuilding – Fixing a House With a Bad Foundation:
+https://www.finehomebuilding.com/1996/09/01/fixing-a-house-with-a-bad-foundation?utm_source=chatgpt.com
+Used for the foundation image and as a visual example of how foundation problems can affect a house.
