@@ -85,8 +85,8 @@ The following Image shows the exact specifications for my infill.
 <img width="938" height="356" alt="image" src="https://github.com/user-attachments/assets/5880782c-ccb1-42a7-bf5b-b1c45b11162a" />
 
 Wall Thickness:
-I didn't change my wall thickness much because A cross is supposed to be constant thickness throughout. however I did scale it up a little given that the print had the cross super thin and I wanted it to have some layers. 
 
+I did not significantly change the wall thickness because I wanted the cross to maintain a consistent thickness throughout the design. However, I increased it slightly because the original print was very thin, and I wanted the final cross to have enough layers to produce a more substantial part.
 Here was my thickness specifications:
 
 <img width="738" height="450" alt="Screenshot 2026-09-06 124045" src="https://github.com/user-attachments/assets/1926f1c9-8021-4dd5-aaf4-36dc1846207c" />
