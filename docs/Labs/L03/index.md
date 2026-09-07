@@ -90,6 +90,7 @@ I used a skirt with a 6 mm distance from the object. The skirt was printed aroun
 <img width="820" height="306" alt="Screenshot 2026-09-06 124256" src="https://github.com/user-attachments/assets/e43095f2-ee29-4bdf-b9d7-3ac45516e485" />
 
 ## Print 
+
 We used Printer PC-16 material with PETG
 
 Video of our prints being made: 
