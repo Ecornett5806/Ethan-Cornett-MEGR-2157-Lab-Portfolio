@@ -22,11 +22,11 @@ While looking at the cross necklace around my neck, I realized it was the ideal 
 The following is the rough sketch I used to make my cross: 
 I had to redesign to allow myself to extrude the cross but the general shape looks very similar to this.
 
-<img width="1052" height="906" alt="Screenshot 2026-09-05 142923" src="https://github.com/user-attachments/assets/3f4b0768-6b42-4c8e-a56c-c3d005ea3175" />
+<img width="552" height="406" alt="Screenshot 2026-09-05 142923" src="https://github.com/user-attachments/assets/3f4b0768-6b42-4c8e-a56c-c3d005ea3175" />
 
 This is a picture of my final design after making the necessary adjustments in CAD and preparing it for printing. For the final print, I used infill throughout the inside of the part to provide additional strength while also reducing the amount of material needed compared to making the entire part solid. I also added a skirt around the outer edge of the print. The skirt does not connect to the part itself; instead, it helps prime the nozzle before the actual print begins and allows me to visually check that the filament is extruding properly. Overall, the combination of the final CAD design, infill, and skirt allowed me to prepare the part for a successful print while keeping the design within the requirements of the assignment.
 
-<img width="1095" height="1748" alt="IMG_1461" src="https://github.com/user-attachments/assets/56891faf-c2c1-4b2e-bb9c-edea29415f2e" />
+<img width="595" height="1248" alt="IMG_1461" src="https://github.com/user-attachments/assets/56891faf-c2c1-4b2e-bb9c-edea29415f2e" />
 
 ## Researching Infills and Mechanical properties: 
 
@@ -34,9 +34,18 @@ Research three infills not shown in class to describe the geometry and why each 
 
 Triangle infill is made from lines printed in three different directions, creating a repeating triangular structure. The triangular geometry creates a rigid internal pattern because the intersecting lines provide support in multiple directions. Triangle infill is useful when a part needs additional internal strength and support while still using less material than a completely solid part. It is also relatively similar to Grid infill in terms of material usage and print time.
 
+<img width="256" height="192" alt="image" src="https://github.com/user-attachments/assets/738f9c93-7209-41b8-9189-8d7923a839e4" />
+
 Lightning infill uses a branching, tree-like geometry rather than filling the entire inside of the part with a uniform pattern. The branches become denser near the top surfaces, where they are needed to support the upper layers. This pattern is primarily used when internal structural strength is not the main concern. Its main purpose is to support the top of a print while using as little material and printing time as possible. This makes it useful for decorative models, prototypes, and parts where reducing filament usage is more important than maximizing strength.
 
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/ac3b03a5-204f-496a-846d-f49eaa9f7ae9" />
+
 Stars infill is based on the triangular pattern, but the paths are shifted to create repeating six-pointed star shapes. The lines cross within each layer, creating a more complex internal geometry than the basic triangle pattern. Stars infill is useful when a printer needs a structured internal pattern while maintaining similar material usage and print time to Triangle infill. Its geometry also gives the printed part internal support without requiring the entire interior to be solid.
+
+<img width="256" height="192" alt="image" src="https://github.com/user-attachments/assets/da080cda-275b-4576-8afe-a5415d869d95" />
+
+I used https://help.prusa3d.com/article/infill-patterns_177130 for the information reguarding these infills.
+Used for information regarding the Triangle, Stars, and Lightning infill patterns, including their geometry, material usage, and printing characteristics.)
 
 how does infill percentage affect mechanical properties, and how do different infill patterns affect mechanical properties?
 
@@ -66,16 +75,18 @@ The following Image shows the exact specifications for my infill.
 <img width="938" height="356" alt="image" src="https://github.com/user-attachments/assets/5880782c-ccb1-42a7-bf5b-b1c45b11162a" />
 
 Wall Thickness:
-I didn't change my wall thickness at all because A cross is supposed to be constant thickness throughout.
+I didn't change my wall thickness much because A cross is supposed to be constant thickness throughout. however I did scale it up a little given that the print had the cross super thin and I wanted it to have some layers. 
 
 Here was my thickness specifications:
 
-<img width="1338" height="1050" alt="Screenshot 2026-09-06 124045" src="https://github.com/user-attachments/assets/1926f1c9-8021-4dd5-aaf4-36dc1846207c" />
+<img width="738" height="450" alt="Screenshot 2026-09-06 124045" src="https://github.com/user-attachments/assets/1926f1c9-8021-4dd5-aaf4-36dc1846207c" />
 
-Skirt
+## Skirt
 
 I added a skirt around the outside of the cross. The skirt does not physically connect to the part. Its purpose is to allow the printer to prime the nozzle before beginning the actual print. It also gives me an opportunity to visually check the first extrusion and make sure the filament is flowing properly before the cross begins printing.
 
 I used a skirt with a 6 mm distance from the object. The skirt was printed around the cross without touching the actual part. I used the skirt to prime the nozzle and verify that the filament was extruding properly before the print began. I did not use a brim because the cross had a large flat surface in contact with the build plate, so additional adhesion from a brim was not necessary. The brim width was set to 0 mm.
 
-<img width="920" height="406" alt="Screenshot 2026-09-06 124256" src="https://github.com/user-attachments/assets/e43095f2-ee29-4bdf-b9d7-3ac45516e485" />
+<img width="820" height="306" alt="Screenshot 2026-09-06 124256" src="https://github.com/user-attachments/assets/e43095f2-ee29-4bdf-b9d7-3ac45516e485" />
+
+## Print: 
