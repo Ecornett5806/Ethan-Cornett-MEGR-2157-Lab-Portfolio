@@ -95,7 +95,9 @@ We used Printer PC-16 material with PETG
 
 Video of our prints being made: 
 
-<video width="640" height="480" controls> <source src="../assets/IMG_1205.mov" type="video/quicktime">
+
+<video controls width="640" src="https://github.com/user-attachments/assets/100210ac-6f99-4a26-ae80-2ef7fe75b4d8"></video>
+
 
 ## Mistakes made and Lessons learned: 
 
