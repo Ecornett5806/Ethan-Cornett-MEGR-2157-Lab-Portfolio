@@ -101,7 +101,7 @@ I used a skirt with a 6 mm distance from the object. The skirt was printed aroun
 
 ## Print 
 
-For the final print, I used Printer PC-16 with PETG material. Our total print time was approximately 23 minutes.
+For the final print, I used Printer PC-16 with PETG material. Our total print time was approximately 19 minutes.
 
 Print Specifications:
 - **Printer:** PC-16
@@ -132,7 +132,10 @@ In future projects, I will take more time during the CAD portion to make sure th
 
 I would also improve how I document my design process. Instead of only documenting the successful design, I would take screenshots of failed or unfinished designs and include images of similar designs that influenced my ideas. This would better show the progression from my original idea to the final product.
 
-The total time I spent on this project was approximately 4 hours. About 10 minutes were spent brainstorming ideas, 10 minutes creating the CAD model in Creo, and approximately 5 minutes correcting CAD mistakes. Preparing the model in PrusaSlicer took approximately 2–3 minutes. Printing took approximately 23 minutes for all three of our prints. The largest amount of time was spent documenting the project, which took approximately 3–4 hours. This showed me that documentation can take significantly longer than the actual design and printing process, so I need to plan time for documentation throughout the project rather than completing it all at the end.
+The total time I spent on this project was approximately 4 hours. About 10 minutes were spent brainstorming ideas, 10 minutes creating the CAD model in Creo, and approximately 5 minutes correcting CAD mistakes. Preparing the model in PrusaSlicer took approximately 2–3 minutes. Printing took approximately 19 minutes for all three of our prints. The largest amount of time was spent documenting the project, which took approximately 3–4 hours. This showed me that documentation can take significantly longer than the actual design and printing process, so I need to plan time for documentation throughout the project rather than completing it all at the end.
+
+Here is the confirmation of the total print time:
+<img width="437" height="437" alt="Screenshot 2026-09-03 131025" src="https://github.com/user-attachments/assets/85d20b97-b660-4e54-8dfa-3247be5ee2c1" />
 
 If I were to scale this design up and use it as a structural or safety-critical component, I would not consider my current design reliable enough. The uneven geometry and lack of symmetry could make the part less stable and cause it to deform or fail under a significant load. Although the cross shape has historical significance because crosses were used for crucifixion, the shape itself does not guarantee structural stability. Before using a 3D-printed component for a safety-critical application, I would need to carefully verify the dimensions, material, wall thickness, infill, loading conditions, and safety factor. I would also need to test the part before trusting it with an important load.
 
