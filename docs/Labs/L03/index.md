@@ -143,7 +143,7 @@ A real-world example that connects to this project is a house foundation. If a f
 
 <img width="1040" height="547" alt="Fixing-a-House-With-a-Bad-Foundation" src="https://github.com/user-attachments/assets/2b3dac8c-f020-4270-b633-5240a8f13763" />
 
-Sources: 
+## Sources: 
 Prusa Research – Infill Patterns
 https://help.prusa3d.com/article/infill-patterns_177130?product=mk3-9s&utm_source=chatgpt.com
 Used for information regarding the Triangle, Stars, and Lightning infill patterns, including their geometry and printing characteristics.
