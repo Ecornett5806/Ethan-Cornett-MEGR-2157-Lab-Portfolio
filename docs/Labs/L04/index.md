@@ -41,11 +41,13 @@ After discussing the infill settings further, we decided to increase the infill 
 
 ### Supports
 
+I chose not to use supports because the benchmark was designed to print flat on the build plate and did not have any overhangs that required support material. This kept the print simpler and prevented support material from affecting the holes I was testing. Since the goal of the benchmark was to determine the smallest hole diameter the printer could produce, I wanted to avoid adding another factor that could affect the results.
 
 ### Scale
 
+We decided not to scale either design down because both designs were already sized to fit on the build plate and were expected to be completed within the required print time. Scaling the designs down would have changed the dimensions of our benchmarks, which could have affected the results. Since both designs already fit within the available space and were expected to take approximately 1 hour and 45 minutes to print, we kept both models at their original 100% scale.
 
-### Final Slicing
+### 1st Slicing
 Here are the three slicing photos we documented during our first print: and then the slicing of my second design: 
 
 10% infill:
@@ -67,7 +69,7 @@ I also changed the units of the overall design from inches to millimeters. Using
 
 For the second attempt, I started with a 10 mm hole and decreased the diameter by 1 mm for each test hole, continuing down to 2 mm. This gave me a range of hole diameters from 10 mm to 2 mm and allowed me to gradually approach the documented minimum instead of immediately starting near the limit.
 
-The results of the second print showed that the printer was able to produce the larger holes consistently, but its performance became increasingly inconsistent as the diameter decreased. Once the holes reached approximately 5 mm and below, the printer began having difficulty reproducing them accurately. The 4 mm hole was visible and open, but only barely, while the 3 mm hole did not print properly. Based on these results, the practical minimum for my particular print setup appears to be approximately 3–4 mm, rather than the 2 mm value listed in the design rules.
+The results of the second print showed that the printer was able to produce the larger holes consistently, but its performance became increasingly inconsistent as the diameter decreased. Once the holes reached approximately 5 mm and below, the printer began having difficulty reproducing them accurately. The 4 mm hole was visible and open, but only barely, while the 3 mm hole did not print properly. Based on these results, Based on these results, the practical minimum for my particular print setup appears to be approximately 4 mm, rather than the 2 mm value listed in the design rules.
 
 This was different from my original prediction. I initially expected the printer to successfully produce a 2 mm hole because the class design rules listed it as the minimum. The second attempt showed that the documented value should be treated as a guideline rather than a guarantee. My results suggest that the actual printable limit depends on the specific printer settings, geometry, and printing conditions used for the benchmark.
 
@@ -87,12 +89,27 @@ Based on this benchmark, 4 mm represents the approximate lower limit for a relia
 
 <img width="3024" height="4032" alt="Final printed artifact" src="https://github.com/user-attachments/assets/931744ff-6499-4db1-b914-b86dd89efa36" />
 
+## 2nd Slicing 
+
+When I created my second design, I used the same infill pattern and kept the infill at 15%. I chose to keep the infill the same because it had worked for the first print, and I wanted to focus on changing the hole diameters rather than changing multiple printing settings at once. This allowed me to make a more direct comparison between my first and second designs. 
+
+<img width="996" height="438" alt="image" src="https://github.com/user-attachments/assets/8b858e30-cdf4-4d31-b889-360c0a038b0b" />
+
+<img width="2556" height="1426" alt="image" src="https://github.com/user-attachments/assets/f7811253-dace-41ba-a72f-d9a306f7a7dc" />
+
+## 2nd attempt Scale:
+
+For my second design, I scaled the model down by 35% because the original design was a little larger than necessary. Scaling the design down allowed me to reduce the print time and get the benchmark completed more quickly. The estimated print time went from approximately 30 minutes to 13 minutes after reducing the scale by 35%. I kept the design at the same scaled size throughout the second print so the hole sizes could still be compared consistently within the model.
+
 ## Which Parameter did I use? (Preprocessor) 
+
 For this project, I chose hole diameter as the parameter to characterize on the Prusa Core One. The objective was to determine the smallest hole diameter that the printer could reliably produce as an open, recognizable feature. Rather than testing a typical or recommended dimension, I designed the benchmark to approach the practical limit of the printer's capabilities. By using progressively smaller hole diameters, I could identify the point at which the printer could no longer accurately reproduce the geometry from the CAD model.
 
 Based on the FDM Design Rules chart provided for the project, I predicted that the smallest hole diameter I could reliably print would be approximately 0.11 in, which is equivalent to approximately 2.794 mm. The chart listed 2 mm as the minimum recommended hole diameter, so I used this value as a reference when determining the dimensions for my benchmark. Since 0.11 in (2.794 mm) is larger than the 2 mm guideline, I expected the 0.11 in hole to remain open after printing.
 
 I chose to test around this value because my goal was not simply to produce a hole that was comfortably within the recommended range. Instead, I wanted to approach the practical printing limit of the Prusa Core One and determine how closely the printer could reproduce small internal features. My expectation was that the larger holes would remain open while progressively smaller holes would eventually become closed or poorly defined. This would allow me to identify the approximate point at which decreasing the hole diameter caused the printer to lose the intended geometry. 
+
+
 
 ## Objective
 
