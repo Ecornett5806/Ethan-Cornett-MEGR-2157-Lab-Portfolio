@@ -46,6 +46,19 @@ After discussing the infill settings further, we decided to increase the infill 
 
 
 ### Final Slicing
+Here are the three slicing photos we documented during our first print: and then the slicing of my second design: 
+
+10% infill:
+
+<img width="917" height="455" alt="Screenshot 2026-09-10 130924" src="https://github.com/user-attachments/assets/653dfbc6-84f1-41a1-be5d-0b89f5a26d5a" />
+
+15% infill:
+
+<img width="917" height="455" alt="Screenshot 2026-09-10 130956" src="https://github.com/user-attachments/assets/cf49bd70-6321-4a76-a5bc-866155f64e7f" />
+
+Final Completed slice: 
+
+<img width="917" height="455" alt="Screenshot 2026-09-10 132109" src="https://github.com/user-attachments/assets/fd047514-679e-434a-af72-be05f7f04d96" />
 
 # CAD Design #2 
 After the first attempt, I realized that I needed to make a few changes to the way I approached the benchmark. The first change was revising the starting hole diameter. Since the first design started with holes that were already very close to the expected limit, I wanted to create a wider range of hole sizes so I could better see where the printer started to struggle.
