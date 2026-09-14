@@ -145,14 +145,30 @@ Second Design:
 
 <video controls width="320" src="https://github.com/user-attachments/assets/f267f145-9920-481a-af54-3c2a7a76e7b9"></video>
 
-## Objective
+## Lessons Learned
 
+One of the biggest lessons I learned was that creating a hole correctly in CAD does not guarantee that the printer will reproduce it as an open hole. My first design showed the circular features in CAD, but the smaller openings became closed during printing. This showed me that FDM printing has physical limitations that need to be considered during the design process.
 
-## Analyze
+I also learned that small changes in hole diameter became increasingly important as I approached the printer's limit. The larger holes printed consistently, but the smaller holes became less defined and eventually failed to remain open. Testing the holes in 1 mm increments in the second design made it easier to identify where the printer began to struggle.
 
+My first design used inch measurements, which made it more difficult to control the small differences between hole sizes. I changed the second design to millimeters and used whole-number increments from 10 mm down to 2 mm. This made the dimensions easier to modify and compare during the benchmark.
 
-## Decide
+For the second print, I kept the same infill pattern and 15% infill instead of changing the infill at the same time as the hole diameters. This allowed me to focus on hole diameter as the main variable being tested. Keeping the printing conditions more consistent made the comparison between the two designs more useful.
 
+I originally used the 2 mm value from the FDM Design Rules as the expected limit. My results showed that my printer and selected settings could not reliably reproduce a 2 mm hole. This taught me that design rules are useful starting points, but testing is still necessary when designing close to a manufacturing limit.
 
-## Communicate
+### What I Would Change
 
+If I repeated this benchmark, I would start with a wider range of hole diameters in millimeters instead of starting so close to the expected minimum. I would also test smaller increments around the point where the holes begin to fail. For example, after finding that 4 mm was barely successful and 3 mm failed, testing additional sizes between those values would give a more precise estimate of the printer's practical limit.
+
+### Actual Time Taken: 
+
+This assignment took me approximately 12 hours total from start to finish. The two prints took about 2 hours combined, while most of the remaining time was spent designing, making changes after the first print, preparing the models in PrusaSlicer, and documenting the process. I worked on the documentation throughout the week rather than completing it all at once.
+
+## Resources Used 
+Design Rules for 3D Printing. Class-provided PDF. Used to compare my measured hole diameter to the documented FDM minimum. The FDM section lists a 2 mm minimum hole diameter. 
+
+(https://github.com/user-attachments/files/32200929/PL_3DP_Design_Rules_EN.pdf)
+
+Prusa Research. Prusa CORE One – Firmware & Downloads / Handbook. Prusa Knowledge Base. Official Prusa CORE One source- 
+https://help.prusa3d.com/downloads/core-one?utm_source=chatgpt.com
