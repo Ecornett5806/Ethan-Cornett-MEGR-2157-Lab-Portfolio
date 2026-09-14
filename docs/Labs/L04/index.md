@@ -109,8 +109,33 @@ Based on the FDM Design Rules chart provided for the project, I predicted that t
 
 I chose to test around this value because my goal was not simply to produce a hole that was comfortably within the recommended range. Instead, I wanted to approach the practical printing limit of the Prusa Core One and determine how closely the printer could reproduce small internal features. My expectation was that the larger holes would remain open while progressively smaller holes would eventually become closed or poorly defined. This would allow me to identify the approximate point at which decreasing the hole diameter caused the printer to lose the intended geometry. 
 
+## Full Specs 
 
+### Infill
 
+I used the same infill pattern for both designs and increased the infill from 10% to 15%. I chose 15% because it provided more internal structure and made the parts more sturdy without significantly increasing the print time. Keeping the same infill for both attempts also allowed me to focus on changing the hole diameters rather than changing multiple printing variables at the same time.
+
+### Build Orientation
+
+I printed the artifact flat on its back because the design was already flat and could be printed directly on the build plate. This orientation kept all of the holes in the same orientation, which helped keep the test focused on hole diameter. It also allowed the part to be printed without supports.
+
+### Supports
+
+I did not use supports for this print. The artifact was designed to print flat on the build plate and did not have overhangs that required support material. Not using supports also prevented support material from becoming another factor that could affect the hole geometry.
+
+### Scale
+#### First Attempt
+
+For the first attempt, I kept the design at 100% scale because it already fit on the build plate and was expected to remain within the required print time. I did not want to change the dimensions of the benchmark unnecessarily because the hole sizes were the main measurements being tested.
+
+#### Second Attempt
+
+For the second attempt, I reduced the overall model size by 35% because the original design was larger than necessary. This reduced the estimated print time from approximately 30 minutes to 13 minutes. I kept the same scale throughout the second print so the holes could still be compared consistently within the design.
+
+## Mistakes
+My first design was the main mistake in the process because the hole diameters were too close to the expected minimum. The CAD model showed the circular features correctly, but the smaller holes did not remain open after printing. I also originally designed the holes using inch measurements, which made it harder to work with the small diameter differences because the CAD dimensions were being rounded. For the second design, I changed the units to millimeters and used whole-number increments from 10 mm down to 2 mm. This gave me a larger range of hole sizes and made it easier to identify where the printer began to have difficulty reproducing the holes.
+
+My second mistake was I overcomplicated the infill because morgan had to explain the issue w the  
 ## Objective
 
 
