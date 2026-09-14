@@ -16,7 +16,7 @@ The first printed artifact shows that the printer recognized where the smaller h
 
 This was interesting because the FDM Design Rules provided for the class listed 2 mm as the minimum hole diameter. My largest test hole was approximately 2.8 mm, which is larger than the documented minimum. Based on this information, I expected the 2.8 mm hole to print as an open hole. Since it did not, I realized that the actual result could be affected by more than just the hole diameter. Factors such as layer height, extrusion width, print settings, and the geometry of the part could also affect whether a small hole remains open.
 
-Although the first attempt failed to produce the result I wanted, it was still useful for the project. The purpose of this benchmark was to find the practical limit of the Prusa Core One, and the first print showed me that the printer's actual capabilities did not necessarily match the minimum value listed in the design rules. I used what I learned from this attempt to make changes to the design before creating my second version.
+The results of the second print showed that the printer was able to produce the larger holes consistently, but its performance became increasingly inconsistent as the actual hole diameter decreased. The 4 mm CAD hole was scaled to approximately 1.4 mm in PrusaSlicer and was visible and open, but only barely. The 3 mm CAD hole was scaled to approximately 1.05 mm and did not print properly. Based on these results, the smallest hole that remained open was approximately 1.4 mm.
 
 <img width="624" height="824" alt="Image_260912_113432" src="https://github.com/user-attachments/assets/b36e63c6-7291-47bc-a315-09c8818d5774" />
 
@@ -67,11 +67,9 @@ After the first attempt, I realized that I needed to make a few changes to the w
 
 I also changed the units of the overall design from inches to millimeters. Using millimeters allowed me to work with more precise, whole-number dimensions instead of repeatedly converting between inches and millimeters. This made it easier to control the hole sizes and compare my results directly to the 2 mm minimum hole diameter listed in the class FDM Design Rules.
 
-For the second attempt, I started with a 10 mm hole and decreased the diameter by 1 mm for each test hole, continuing down to 2 mm. This gave me a range of hole diameters from 10 mm to 2 mm and allowed me to gradually approach the documented minimum instead of immediately starting near the limit.
+For the second attempt, I started with a 10 mm hole and decreased the diameter by 1 mm for each test hole continuing down to 2 mm These were the dimensions in the CAD model before the model was uniformly scaled in Prusa Slicer. This gave me a range of hole diameters from 10 mm to 2 mm and allowed me to gradually approach the documented minimum instead of immediately starting near the limit.
 
-The results of the second print showed that the printer was able to produce the larger holes consistently, but its performance became increasingly inconsistent as the diameter decreased. Once the holes reached approximately 5 mm and below, the printer began having difficulty reproducing them accurately. The 4 mm hole was visible and open, but only barely, while the 3 mm hole did not print properly. Based on these results, Based on these results, the practical minimum for my particular print setup appears to be approximately 4 mm, rather than the 2 mm value listed in the design rules.
-
-This was different from my original prediction. I initially expected the printer to successfully produce a 2 mm hole because the class design rules listed it as the minimum. The second attempt showed that the documented value should be treated as a guideline rather than a guarantee. My results suggest that the actual printable limit depends on the specific printer settings, geometry, and printing conditions used for the benchmark.
+The results of the second print showed that the printer was able to produce the larger holes consistently, but its performance became increasingly inconsistent as the actual hole diameter decreased. The 4 mm CAD hole was scaled to approximately 1.4 mm in PrusaSlicer and was visible and open, but only barely. The 3 mm CAD hole was scaled to approximately 1.05 mm and did not print properly. Based on these results, the smallest hole that remained open was approximately 1.4 mm.
 
 ## Final CAD Design
 
@@ -81,11 +79,11 @@ The following image shows the updated CAD model. Compared with the first design,
 
 ## Final Printed Artifact
 
-The image below shows the final printed artifact. This print allowed me to see exactly where the Prusa Core One began to have difficulty reproducing the hole geometry. The larger holes remained open and recognizable, while the smaller holes became increasingly difficult for the printer to reproduce. The 4 mm hole was only barely successful, while the 3 mm hole did not form correctly.
+The image below shows the final printed artifact. This print allowed me to see exactly where the Prusa Core One began to have difficulty reproducing the hole geometry. The larger holes remained open and recognizable, while the smaller holes became increasingly difficult for the printer to reproduce.The results of the second print showed that the printer was able to produce the larger holes consistently, but its performance became increasingly inconsistent as the actual hole diameter decreased. The 4 mm CAD hole was scaled to approximately 1.4 mm in PrusaSlicer and was visible and open, but only barely. The 3 mm CAD hole was scaled to approximately 1.05 mm and did not print properly.
 
 ## final thoughts on the design: 
 
-Based on this benchmark, 4 mm represents the approximate lower limit for a reliably open hole under my selected printing conditions, while 3 mm was below the reliable printing threshold.
+The results of the second print showed that the larger holes printed consistently, but the printer's performance became increasingly inconsistent as the actual hole diameter decreased. The 4 mm CAD hole, which was approximately 1.4 mm after scaling, was visible and open but only barely. The 3 mm CAD hole, which was approximately 1.05 mm after scaling, did not print properly. However, because this hole was only barely successful, the more reliable printing limit for my selected conditions appears to be approximately 1.75–2.1 mm.
 
 <img width="3024" height="4032" alt="Final printed artifact" src="https://github.com/user-attachments/assets/931744ff-6499-4db1-b914-b86dd89efa36" />
 
@@ -99,7 +97,7 @@ When I created my second design, I used the same infill pattern and kept the inf
 
 ## 2nd attempt Scale:
 
-For my second design, I scaled the model down by 35% because the original design was a little larger than necessary. Scaling the design down allowed me to reduce the print time and get the benchmark completed more quickly. The estimated print time went from approximately 30 minutes to 13 minutes after reducing the scale by 35%. I kept the design at the same scaled size throughout the second print so the hole sizes could still be compared consistently within the model.
+For the second design, I reduced the overall model to 35% scale because the original design was larger than necessary. This reduced the estimated print time from approximately 30 minutes to 13 minutes. Because the entire model was scaled uniformly, the hole diameters were also reduced to 35% of their original CAD dimensions. For example, the 4 mm CAD hole became approximately 1.4 mm after scaling. I kept the same scale throughout the second print so the hole sizes could be compared consistently.
 
 ## Which Parameter did I use? (Preprocessor) 
 
@@ -130,7 +128,7 @@ For the first attempt, I kept the design at 100% scale because it already fit on
 
 #### Second Attempt
 
-For the second attempt, I reduced the overall model size by 35% because the original design was larger than necessary. This reduced the estimated print time from approximately 30 minutes to 13 minutes. I kept the same scale throughout the second print so the holes could still be compared consistently within the design.
+For the second attempt, I used a 35% scale in PrusaSlicer to reduce the overall size of the artifact and decrease print time. The model was uniformly scaled in the X, Y, and Z directions, so the hole diameters were also reduced proportionally. The original CAD model contained holes from 10 mm to 2 mm, which resulted in printed hole diameters from approximately 3.5 mm to 0.7 mm after scaling. The estimated print time decreased from approximately 30 minutes to 13 minutes.
 
 ## Mistakes
 My first design was the main mistake in the process because the hole diameters were too close to the expected minimum. The CAD model showed the circular features correctly, but the smaller holes did not remain open after printing. I also originally designed the holes using inch measurements, which made it harder to work with the small diameter differences because the CAD dimensions were being rounded. For the second design, I changed the units to millimeters and used whole-number increments from 10 mm down to 2 mm. This gave me a larger range of hole sizes and made it easier to identify where the printer began to have difficulty reproducing the holes.
@@ -155,11 +153,11 @@ My first design used inch measurements, which made it more difficult to control 
 
 For the second print, I kept the same infill pattern and 15% infill instead of changing the infill at the same time as the hole diameters. This allowed me to focus on hole diameter as the main variable being tested. Keeping the printing conditions more consistent made the comparison between the two designs more useful.
 
-I originally used the 2 mm value from the FDM Design Rules as the expected limit. My results showed that my printer and selected settings could not reliably reproduce a 2 mm hole. This taught me that design rules are useful starting points, but testing is still necessary when designing close to a manufacturing limit.
+I originally used the 2 mm value from the FDM Design Rules as the expected limit. My results showed that the printer was able to produce an opening smaller than 2 mm, but the approximately 1.4 mm hole was only barely successful and was not a reliable feature. This taught me that design rules are useful starting points, but testing is still necessary when designing close to a manufacturing limit.
 
 ### What I Would Change
 
-If I repeated this benchmark, I would start with a wider range of hole diameters in millimeters instead of starting so close to the expected minimum. I would also test smaller increments around the point where the holes begin to fail. For example, after finding that 4 mm was barely successful and 3 mm failed, testing additional sizes between those values would give a more precise estimate of the printer's practical limit.
+Being more precise with my test increments would help me identify the exact failure point instead of using larger gaps between test sizes. For example, after finding that the approximately 1.4 mm hole was barely successful and the approximately 1.05 mm hole failed, I could test additional sizes between them, such as 1.1 mm, 1.2 mm, and 1.3 mm. This would allow me to narrow down the printer's practical limit more precisely.
 
 ### Actual Time Taken: 
 
