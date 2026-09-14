@@ -139,12 +139,11 @@ My first design was the main mistake in the process because the hole diameters w
 
 First Design: 
 
-https://github.com/user-attachments/assets/40cc661f-aaf6-4fd6-b8c2-54ff30e55233
+<video controls width="320" src="https://github.com/user-attachments/assets/40cc661f-aaf6-4fd6-b8c2-54ff30e55233"></video>
 
 Second Design:
 
-https://github.com/user-attachments/assets/f267f145-9920-481a-af54-3c2a7a76e7b9
-
+<video controls width="320" src="https://github.com/user-attachments/assets/f267f145-9920-481a-af54-3c2a7a76e7b9"></video>
 
 ## Objective
 
