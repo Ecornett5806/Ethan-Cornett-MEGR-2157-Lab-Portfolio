@@ -2,7 +2,7 @@
 
 ## Calulating values: 
 
-<img width="4284" height="5712" alt="IMG_1634" src="https://github.com/user-attachments/assets/6d634f9d-df13-43a2-b27a-88af8660c32f" />
+<img width="1284" height="2712" alt="IMG_1634" src="https://github.com/user-attachments/assets/6d634f9d-df13-43a2-b27a-88af8660c32f" />
 
 ### Flexure Design values and reasoning 
 Material Selection
@@ -15,23 +15,23 @@ Because of that your allowed normal stress of 10.29  Mpa
 
 The initial flexure width and thickness were selected as 12 mm and 4 mm, respectively. These dimensions were selected to provide a compact flexure while maintaining sufficient cross-sectional area for the printed component.
 
-### Flexure Length
+ Flexure Length
 
 The flexure was modeled as a cantilever beam with a concentrated load at its free end. A transverse design load of 1.5 lbf was selected. A target deflection of 1.5 mm was selected so that the flexure could clear the 1.3 mm snap lip.
 
-### Bending Stress
+Bending Stress
 
 The maximum bending stress occurs at the fixed end of the cantilever. The calculated bending stress was 9.65 MPa, compared with an allowable normal stress of 10.29 MPa after applying the required safety factor of 3.5. The calculated safety factor was 3.75, so the flexure satisfies the strength requirement.
 
-### Axial Stress
+Axial Stress
 
 A 7 lbf axial load was selected because it falls within the required 5–10 lbf range. Assuming the load is shared equally between the two flexures, each flexure carries 3.5 lbf. The resulting axial stress was 0.649 MPa.
 
-### Shear Stress
+Shear Stress
 
 The average shear stress at the flexure protrusion was calculated using the 3.5 lbf reaction at each side. The resulting shear stress was 0.973 MPa, which is below the allowable shear stress of 7.29 MPa using a Tresca-based yield check with the required safety factor.
 
-### Design Iteration
+Design Iteration
 
 The initial calculation produced a flexure length of approximately 46.3 mm. The length was rounded to 46 mm for the CAD model and checked using the cantilever deflection equation. The calculated bending stress remained below the allowable stress, while the resulting deflection was greater than the 1.3 mm snap-lip height. The design therefore met the calculated strength and deflection requirements and was carried forward to the CAD stage.
 
