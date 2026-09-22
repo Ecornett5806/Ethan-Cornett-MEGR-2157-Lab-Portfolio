@@ -89,18 +89,28 @@ After completing the CAD model, I imported both components into PrusaSlicer to p
 
 ## Total filament used and the total time for print to finish. 
 
+The first screenshot shows the estimated material usage and total time required to complete the print. The slicer calculates these values after generating the toolpath for the models. This information was used to confirm that the print could be completed within the available printing time while also estimating how much PLA would be required.
+
 <img width="444" height="320" alt="Screenshot 2026-09-22 111801" src="https://github.com/user-attachments/assets/d1f4c602-9f6a-423a-9845-467b47edfa9e" />
 
 ## Infill used: 
+
+The second screenshot shows the infill settings selected for the parts. Infill provides internal structure while reducing the amount of material compared to printing the parts completely solid. The selected infill was used to provide additional internal support while keeping the print time and material usage reasonable.
 
 <img width="1016" height="292" alt="Screenshot 2026-09-22 111753" src="https://github.com/user-attachments/assets/a80f533e-689a-49d9-b667-6931782cc022" />
 
 ### Material used: printer used:
 
+The third screenshot shows the material and printer configuration used in PrusaSlicer. The print was prepared using PLA because the flexure was designed and analyzed using PLA material properties. The printer profile was selected to match the printer being used so that the slicer could generate the appropriate toolpath and printing parameters.
+
 <img width="840" height="770" alt="Screenshot 2026-09-22 111737" src="https://github.com/user-attachments/assets/08d77f0e-da8f-443d-9766-c4322aa79c3a" />
 
 ### final design on the plate and sliced:
 
+The final screenshot shows both components positioned on the build plate after being sliced. The orientation of the parts was selected so that the flexures could be printed in an orientation appropriate for the expected bending load. The completed slice also allowed the toolpath to be inspected before printing, including the outer walls, infill, and support regions. This step helped verify that the entire model would be printed and that the snap-fit features were included in the generated toolpath.
+
 <img width="1510" height="1040" alt="Screenshot 2026-09-22 111744" src="https://github.com/user-attachments/assets/d2f23412-9b33-451c-8a7d-0f6443e3e455" />
 
+### Preprocessor Summary
 
+The preprocessor stage converted the completed CAD models into a printable toolpath. Before starting the print, I checked the estimated material usage, print time, infill, material and printer selection, and final model orientation. Reviewing these settings before printing helped catch potential problems before material was used and provided a final check that the printed parts matched the intended design.
