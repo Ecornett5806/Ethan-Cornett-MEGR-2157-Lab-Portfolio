@@ -73,6 +73,10 @@ The base dimensions were controlled using BASE_W and BASE_H. These parameters co
 
 Finally, CLEARANCE was set to 0.3 mm to provide an engineered allowance between the mating components. This prevents the two printed parts from being modeled as an exact interference and provides space for normal dimensional variation from FDM printing. The parameter was ultimately not used to drive the final geometry because the mating dimensions were established directly during CAD development.
 
+Final CAD model:
+
+<img width="826" height="954" alt="Screenshot 2026-09-22 105312" src="https://github.com/user-attachments/assets/aa634571-e235-4b4c-82f9-e05184d1a7d0" />
+
 ## Design Changes and Iteration
 
 The only major design change I had to do was changing the base from a super wide 30mm to matching the other parts 12mm width. Outside of that my initial design was the final design. 
@@ -82,6 +86,8 @@ The only major design change I had to do was changing the base from a super wide
 ### Build Orientation Research
 
 FDM printed parts are anisotropic, meaning their mechanical properties can change depending on how the part is oriented during printing. A study investigating FDM-printed PLA found that print orientation has a significant effect on flexural performance. The study found that, for bending, the orientation of the deposited layers should be considered carefully. In particular, when the deposition direction is parallel to the bending plane, longer continuous layers are produced and the printed part has greater resistance to bending. When the raster orientation is angled relative to the bending plane, the effective fiber length is reduced and separation between layers becomes easier.
+
+For my design, the flexures were oriented so that their length and bending direction remain primarily within the printed layers rather than relying on the weaker bond between layers. This aligns with the research because the flexure is being loaded in bending along the direction of the deposited material. This orientation should allow the individual printed layers to carry more of the bending load instead of placing the majority of the load across the layer interfaces. Therefore, the selected orientation is consistent with the research recommendation for improving the bending resistance of an FDM-printed PLA flexure.
 
 ### Preprocessor 
 
@@ -105,6 +111,10 @@ The third screenshot shows the material and printer configuration used in PrusaS
 
 <img width="840" height="770" alt="Screenshot 2026-09-22 111737" src="https://github.com/user-attachments/assets/08d77f0e-da8f-443d-9766-c4322aa79c3a" />
 
+## Supports: 
+
+I didn't use any supports because my print laid flat on the table 
+
 ### final design on the plate and sliced:
 
 The final screenshot shows both components positioned on the build plate after being sliced. The orientation of the parts was selected so that the flexures could be printed in an orientation appropriate for the expected bending load. The completed slice also allowed the toolpath to be inspected before printing, including the outer walls, infill, and support regions. This step helped verify that the entire model would be printed and that the snap-fit features were included in the generated toolpath.
@@ -114,3 +124,39 @@ The final screenshot shows both components positioned on the build plate after b
 ### Preprocessor Summary
 
 The preprocessor stage converted the completed CAD models into a printable toolpath. Before starting the print, I checked the estimated material usage, print time, infill, material and printer selection, and final model orientation. Reviewing these settings before printing helped catch potential problems before material was used and provided a final check that the printed parts matched the intended design.
+
+## Mistakes made 
+
+1: was not set on a design till late which lead to not being able to parametrically design as much as I would have liked:
+
+2: Didnt set up the width of the top section correctly in the first print.
+
+3: The printing process also showed that small snap-fit features require more attention than larger features. The hooks and flexures have to fit together while still having enough material to withstand repeated bending. This reinforced the need to check clearances and feature dimensions before printing the final version.
+
+# Lessons Learned: 
+
+## Parametric Modeling
+
+The project also gave me more experience with parametric CAD. Instead of treating every dimension as an independent number, I created parameters such as FLEX_L, FLEX_W, and FLEX_T so that important dimensions could be changed without rebuilding the entire model.
+
+For example, changing the flexure length through the parameter allowed the geometry to update without manually changing every related dimension. This demonstrated why parametric modeling is useful for engineering design. If testing showed that the flexure needed to be longer, shorter, thicker, or wider, the model could be adjusted much faster.
+
+I also learned that creating a parameter does not automatically make a model fully parametric. A parameter needs to actually control a dimension or feature in the model. Some of the parameters I created were ultimately not used to drive the final geometry. This helped me understand the difference between having parameters in a model and actually using parameters to control the design.
+
+## Designing Around the Function
+
+One of the biggest lessons I learned was that the dimensions of a part should be based on how the part is expected to function. The flexure in this design is not simply a thin piece of plastic; it acts as a cantilever beam that has to bend when the two components are assembled. Because of this, the length, width, and thickness of the flexure directly affect how much it bends and how much stress develops in the material.
+
+I originally focused more on making the parts fit together physically. After working through the beam calculations, I understood that the flexure dimensions also had to satisfy the stress and deflection requirements. This made the engineering calculations useful during CAD instead of treating them as a separate part of the assignment.
+
+## Testing Is Part of the Design
+
+I also learned that calculations and CAD cannot completely replace physical testing. The calculations use assumptions about material properties, loading, geometry, and how the load is distributed. The actual printed part introduces additional factors such as layer adhesion, print defects, dimensional variation, and surface finish.
+
+Printing the components provides a way to see whether the assumptions made during the design process actually produce a functional part. If the snap fit is too tight, too loose, too difficult to assemble, or breaks during testing, the CAD model can then be modified.
+
+This also stems from me printing a part I know was going to fail so I could see what needed to be fixed. 
+
+## Resources and actual time it took from start to finish
+
+Actual time it took to fully do the calculations make the cad and print was about 4 hours. I started at 8 pm and finished the design at 12 am. 
