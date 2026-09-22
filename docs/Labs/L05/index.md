@@ -4,7 +4,7 @@
 
 <img width="4284" height="5712" alt="IMG_1634" src="https://github.com/user-attachments/assets/6d634f9d-df13-43a2-b27a-88af8660c32f" />
 
-## Flexure Design values and reasoning 
+### Flexure Design values and reasoning 
 Material Selection
 
 PLA was selected for the snap-fit assembly because it is readily available for FDM printing and provides sufficient stiffness for the application. Published Prusament PLA data reports a tensile modulus of approximately 2.3 GPa and a horizontal tensile yield strength of approximately 36 MPa.
