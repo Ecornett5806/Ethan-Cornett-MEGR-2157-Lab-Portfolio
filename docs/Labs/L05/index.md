@@ -1,13 +1,106 @@
-# A5 – [Topic]
+# A5 – SNAP FIT 
 
-## Objective
+## Calulating values: 
+
+<img width="4284" height="5712" alt="IMG_1634" src="https://github.com/user-attachments/assets/6d634f9d-df13-43a2-b27a-88af8660c32f" />
+
+## Flexure Design values and reasoning 
+Material Selection
+
+PLA was selected for the snap-fit assembly because it is readily available for FDM printing and provides sufficient stiffness for the application. Published Prusament PLA data reports a tensile modulus of approximately 2.3 GPa and a horizontal tensile yield strength of approximately 36 MPa.
+
+Because of that your allowed normal stress of 10.29  Mpa
+
+### Initial Flexure Dimensions
+
+The initial flexure width and thickness were selected as 12 mm and 4 mm, respectively. These dimensions were selected to provide a compact flexure while maintaining sufficient cross-sectional area for the printed component.
+
+### Flexure Length
+
+The flexure was modeled as a cantilever beam with a concentrated load at its free end. A transverse design load of 1.5 lbf was selected. A target deflection of 1.5 mm was selected so that the flexure could clear the 1.3 mm snap lip.
+
+### Bending Stress
+
+The maximum bending stress occurs at the fixed end of the cantilever. The calculated bending stress was 9.65 MPa, compared with an allowable normal stress of 10.29 MPa after applying the required safety factor of 3.5. The calculated safety factor was 3.75, so the flexure satisfies the strength requirement.
+
+### Axial Stress
+
+A 7 lbf axial load was selected because it falls within the required 5–10 lbf range. Assuming the load is shared equally between the two flexures, each flexure carries 3.5 lbf. The resulting axial stress was 0.649 MPa.
+
+### Shear Stress
+
+The average shear stress at the flexure protrusion was calculated using the 3.5 lbf reaction at each side. The resulting shear stress was 0.973 MPa, which is below the allowable shear stress of 7.29 MPa using a Tresca-based yield check with the required safety factor.
+
+### Design Iteration
+
+The initial calculation produced a flexure length of approximately 46.3 mm. The length was rounded to 46 mm for the CAD model and checked using the cantilever deflection equation. The calculated bending stress remained below the allowable stress, while the resulting deflection was greater than the 1.3 mm snap-lip height. The design therefore met the calculated strength and deflection requirements and was carried forward to the CAD stage.
+
+## First unparameterized design print: 
+
+<img width="1024" height="2032" alt="IMG_1635" src="https://github.com/user-attachments/assets/bf8f5344-b103-4001-ac4a-beca32c0f76f" />
 
 
-## Analyze
+## Secound Parameterized design:
 
+<img width="1024" height="2032" alt="IMG_1632" src="https://github.com/user-attachments/assets/df6c9838-2420-4640-8790-c3570b94a44b" />
 
-## Decide
+## PARAMETRICALLY DESIGNED PORTIONS 
 
+The snap-fit assembly was created using parametric modeling so that the main dimensions of the design could be changed without rebuilding the geometry. The parameters were selected based on the flexure calculations and the dimensions needed to control the interaction between the two printed components.
 
-## Communicate
+I had to limit the amount of the design that was parametrically designed due to time constraints and because of this my design is not a parametrically driven as much as I would like them to be, However I got the general geometry down parametrically specifically the width and height of the design both top clip and bottom clip being 12 and 46 mm. 
+
+Below are the pictures of my CAD design when it was finished Aswell as the parameter and relations I used in the design process. 
+
+## Design Parameters: (some went unused) 
+<img width="1370" height="608" alt="Screenshot 2026-09-22 110151" src="https://github.com/user-attachments/assets/c03de809-1603-4fd5-87d8-f339e2648930" />
+
+<img width="1388" height="574" alt="Screenshot 2026-09-22 110202" src="https://github.com/user-attachments/assets/9a03a74d-d238-472d-98a5-e4ad04d7d931" />
+
+## Design Relations: 
+
+<img width="1384" height="142" alt="Screenshot 2026-09-22 105350" src="https://github.com/user-attachments/assets/aae377e9-1b0f-43cf-8d6a-c05036b00040" />
+
+The parameters were chosen based on the calculations from the design stage and the geometry required for the snap-fit assembly.
+
+The three primary flexure parameters were FLEX_L, FLEX_W, and FLEX_T. These dimensions control the size and stiffness of the cantilever flexure. The calculated flexure length was approximately 46.3 mm, so FLEX_L was set to 46 mm for the CAD model. The width and thickness were set to 12 mm and 4 mm, respectively, based on the initial flexure design.
+
+The snap features were supposed to be controlled using LIP_H and LIP_T. The lip height was going to be set to 1.3 mm because the flexure was designed to deflect approximately 1.5 mm, allowing it to pass over the lip during assembly. The parameters were ultimately not used to drive the final geometry because the dimensions were established during the CAD development process and did not require additional iteration. 
+
+The FILLET_R parameter was set to 2 mm to control the rounded transition at the flexure. This avoids using an unnecessarily sharp corner at the beginning of the flexible section. I ended up not needing to use a fillet, so this parameter was just in case. 
+
+The base dimensions were controlled using BASE_W and BASE_H. These parameters control the overall size of the rigid component and allow the base to be resized without manually rebuilding the sketch. Because the base and the flex values were the same, I decided that they were unnecessary. 
+
+Finally, CLEARANCE was set to 0.3 mm to provide an engineered allowance between the mating components. This prevents the two printed parts from being modeled as an exact interference and provides space for normal dimensional variation from FDM printing. The parameter was ultimately not used to drive the final geometry because the mating dimensions were established directly during CAD development.
+
+## Design Changes and Iteration
+
+The only major design change I had to do was changing the base from a super wide 30mm to matching the other parts 12mm width. Outside of that my initial design was the final design. 
+
+## 3D Printing and Build Orientation
+
+### Build Orientation Research
+
+FDM printed parts are anisotropic, meaning their mechanical properties can change depending on how the part is oriented during printing. A study investigating FDM-printed PLA found that print orientation has a significant effect on flexural performance. The study found that, for bending, the orientation of the deposited layers should be considered carefully. In particular, when the deposition direction is parallel to the bending plane, longer continuous layers are produced and the printed part has greater resistance to bending. When the raster orientation is angled relative to the bending plane, the effective fiber length is reduced and separation between layers becomes easier.
+
+### Preprocessor 
+
+After completing the CAD model, I imported both components into PrusaSlicer to prepare them for printing. The preprocessor was used to determine the amount of filament required, estimated print time, infill, material, printer settings, and final placement of the parts on the print bed. These settings were checked before printing to make sure both components could be produced as designed.
+
+## Total filament used and the total time for print to finish. 
+
+<img width="444" height="320" alt="Screenshot 2026-09-22 111801" src="https://github.com/user-attachments/assets/d1f4c602-9f6a-423a-9845-467b47edfa9e" />
+
+## Infill used: 
+
+<img width="1016" height="292" alt="Screenshot 2026-09-22 111753" src="https://github.com/user-attachments/assets/a80f533e-689a-49d9-b667-6931782cc022" />
+
+### Material used: printer used:
+
+<img width="840" height="770" alt="Screenshot 2026-09-22 111737" src="https://github.com/user-attachments/assets/08d77f0e-da8f-443d-9766-c4322aa79c3a" />
+
+### final design on the plate and sliced:
+
+<img width="1510" height="1040" alt="Screenshot 2026-09-22 111744" src="https://github.com/user-attachments/assets/d2f23412-9b33-451c-8a7d-0f6443e3e455" />
+
 
