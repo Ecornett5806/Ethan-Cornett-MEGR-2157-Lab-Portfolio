@@ -48,50 +48,13 @@ The part was printed using a Prusa CORE One 3D printer. The CORE One was used to
 
 Design Specs: 
 
-Length: 3in, Width: 2.5in, Indents: .12in, cutout: .13in 
+The Arduino case was designed with a length of 3.00 in, a width of 2.50 in, and a wall thickness of 0.16 in. The case includes 0.12 in indents and a 0.13 in cutout for the snap-fit features. A Shell feature was used to create the walls instead of modeling each wall separately.
 
-Print Layout
+The case was printed flat on the print bed with the bottom facing the bed. This provided a large contact area and kept the part stable during printing while allowing the case to be printed without supports. No brim or support material was used.
 
-I placed the case flat on the print bed to maximize the contact area with the bed and keep the part stable during printing. This also helped reduce the amount of support material needed.
+The part was prepared in PrusaSlicer using the 0.20 mm Balanced print setting with Generic PETG and 15% infill. The print contained 51 layers and had a final printed size of approximately 2.45 × 3.00 × 0.40 in. The bounding-box volume was approximately 2.94 in³, while the estimated material volume was 0.81 in³. The estimated print time was approximately 28 minutes.
 
-Build Orientation
-
-I oriented the case so that the bottom was facing the print bed. This orientation allowed the main base to print directly on the bed and kept the walls and snap-fit features oriented vertically. This reduced unnecessary supports and helped maintain the dimensions of the snap-fit features.
-
-Supports 
-
-No supports were used for this print. The case was oriented flat on the print bed so that the geometry could be printed without requiring additional support material. This reduced material usage and eliminated the need for post-processing to remove supports.
-
-Wall Thickness
-
-The wall thickness of the case was .16in Instead of making the walls separately I used a Shell. I used that so I didnt need to manually build 4 walls this thickness was selected to provide enough strength for the case while keeping the part relatively small and lightweight.
-
-### Number of Layers
-
-The print used 51 layers in total.
-
-### Build Volume
-
-The printed part had dimensions of 2.45 × 3.00 × 0.40 inches. This gives a bounding-box volume of approximately 2.94 in³. The slicer estimated the actual material volume at approximately 0.81 in³.
-
-### Slicer Settings
-
-The part was sliced using PrusaSlicer with the 0.20 mm Balanced print setting. Generic PETG was selected as the filament material. The print used 15% infill. Supports were set to "For support enforcers only," although no supports were needed for the final design. No brim was used. The estimated print time was approximately 28 minutes in normal mode.
-
-### Support Removal
-
-No supports were used for the final print, so no support removal was necessary.
-
-### Print Layout and Orientation
-
-The case was placed flat on the print bed with the bottom of the case facing the bed. This provided a large contact area with the print surface and allowed the case to be printed without supports. The orientation also kept the walls and snap-fit features in the intended orientation.
-
-After completing and testing the CAD model, I exported the final part as an STL file and imported it into PrusaSlicer for preparation and printing.
-
-### Fit Test
-
-After printing, the case was tested on the Arduino Uno R3 to determine whether the dimensions and snap-fit features provided the intended fit.
-Mine snaps into place and stays even when you shake it upside down. 
+After printing, the case was tested on the Arduino Uno R3. The case successfully snapped into place and remained attached when the Arduino was turned upside down and shaken, showing that the snap-fit features provided the intended retention.
 
 ### Full Sliced Specs: 
 
