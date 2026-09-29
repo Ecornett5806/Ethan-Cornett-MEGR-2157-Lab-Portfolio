@@ -46,26 +46,26 @@ Constraints were used to control the geometry of the case and maintain the relat
 
 The part was printed using a Prusa CORE One 3D printer. The CORE One was used to produce the snap-fit case for the Arduino Uno R3.
 
-### Design Specs: 
+Design Specs: 
 
 Length: 3in
 Width: 2.5in
 Indents: .12in
 cutout: .13in 
 
-### Print Layout
+Print Layout
 
 I placed the case flat on the print bed to maximize the contact area with the bed and keep the part stable during printing. This also helped reduce the amount of support material needed.
 
-### Build Orientation
+Build Orientation
 
 I oriented the case so that the bottom was facing the print bed. This orientation allowed the main base to print directly on the bed and kept the walls and snap-fit features oriented vertically. This reduced unnecessary supports and helped maintain the dimensions of the snap-fit features.
 
-### Supports 
+Supports 
 
 No supports were used for this print. The case was oriented flat on the print bed so that the geometry could be printed without requiring additional support material. This reduced material usage and eliminated the need for post-processing to remove supports.
 
-### Wall Thickness
+Wall Thickness
 
 The wall thickness of the case was .16in Instead of making the walls separately I used a Shell. I used that so I didnt need to manually build 4 walls this thickness was selected to provide enough strength for the case while keeping the part relatively small and lightweight.
 
