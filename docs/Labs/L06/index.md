@@ -10,7 +10,7 @@ The Length and Width parameters were adjusted during the design process as I com
 
 Hand Drawing: 
 
-<img width="3024" height="4032" alt="IMG_1696" src="https://github.com/user-attachments/assets/c5b95652-acd2-4bd5-8b8b-1995eacd71b4" />
+<img width="1024" height="2032" alt="IMG_1696" src="https://github.com/user-attachments/assets/c5b95652-acd2-4bd5-8b8b-1995eacd71b4" />
 
 ## CAD Model
 
@@ -32,7 +32,7 @@ Hand Drawing:
 
 <img width="220" height="100" alt="Screenshot 2026-09-29 113020" src="https://github.com/user-attachments/assets/5d58cfaa-64b1-46d4-a2b8-9ef8ef56025c" />
 
-<img width="1408" height="152" alt="Screenshot 2026-09-29 113010" src="https://github.com/user-attachments/assets/95b7996d-1128-44c7-9250-61d3592860f1" />
+<img width="1008" height="152" alt="Screenshot 2026-09-29 113010" src="https://github.com/user-attachments/assets/95b7996d-1128-44c7-9250-61d3592860f1" />
 
 I determined the engineered allowance by comparing the measured dimensions of the Arduino to the dimensions of my CAD model. I added a small amount of clearance so the case could slide over the Arduino without being too tight, while still keeping the fit secure. The allowance was refined through trial and error by testing the printed part and adjusting the dimensions if the fit was too tight or too loose. Think of it as a phone case for the Arduino. 
 
@@ -58,11 +58,11 @@ After printing, the case was tested on the Arduino Uno R3. The case successfully
 
 ### Full Sliced Specs: 
 
-<img width="1368" height="1070" alt="Screenshot 2026-09-29 114446" src="https://github.com/user-attachments/assets/c9299a41-b103-4923-991d-b06c548980fa" />
+<img width="500" height="500" alt="Screenshot 2026-09-29 114446" src="https://github.com/user-attachments/assets/c9299a41-b103-4923-991d-b06c548980fa" />
 
-<img width="1040" height="354" alt="Screenshot 2026-09-29 114440" src="https://github.com/user-attachments/assets/ed579661-9593-4562-9662-e6da9243f62c" />
+<img width="700" height="354" alt="Screenshot 2026-09-29 114440" src="https://github.com/user-attachments/assets/ed579661-9593-4562-9662-e6da9243f62c" />
 
-<img width="2560" height="1436" alt="Screenshot 2026-09-29 114432" src="https://github.com/user-attachments/assets/baf78bb9-a1f0-4723-af6a-1e28102db472" />
+<img width="700" height="500" alt="Screenshot 2026-09-29 114432" src="https://github.com/user-attachments/assets/baf78bb9-a1f0-4723-af6a-1e28102db472" />
 
 Video Of printer working: 
 
