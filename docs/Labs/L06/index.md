@@ -48,10 +48,7 @@ The part was printed using a Prusa CORE One 3D printer. The CORE One was used to
 
 Design Specs: 
 
-Length: 3in
-Width: 2.5in
-Indents: .12in
-cutout: .13in 
+Length: 3in, Width: 2.5in, Indents: .12in, cutout: .13in 
 
 Print Layout
 
@@ -119,7 +116,6 @@ I learned that a snap fit needs a balance between clearance and retention. If th
 I learned that the orientation of a part can greatly affect how it prints. By placing the case flat on the print bed, I was able to print the part without supports. This reduced material usage and eliminated additional post-processing.
 
 One mistake I made was starting with estimated dimensions instead of having all of the required measurements finalized. I corrected this by comparing the CAD model to the actual Arduino and adjusting the parameters as needed. This helped me understand the importance of designing around measured dimensions rather than assumptions.
-
 
 ### Time and Resources
 
