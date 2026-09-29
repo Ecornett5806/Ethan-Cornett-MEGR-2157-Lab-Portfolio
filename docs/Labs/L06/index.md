@@ -1,5 +1,4 @@
 # A6 Design Fits for an artifact
-
 ## Parametrically design
 
 The two main parameters used for the base of the case were Length and Width. The initial values were 3 inches for the length and 2.5 inches for the width. These parameters controlled the overall size of the case base and provided a simple way to adjust the design as the dimensions were refined.
