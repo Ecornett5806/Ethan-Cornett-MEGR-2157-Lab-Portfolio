@@ -79,6 +79,14 @@ I learned that the orientation of a part can greatly affect how it prints. By pl
 
 One mistake I made was starting with estimated dimensions instead of having all of the required measurements finalized. I corrected this by comparing the CAD model to the actual Arduino and adjusting the parameters as needed. This helped me understand the importance of designing around measured dimensions rather than assumptions.
 
+
+## Final showing that it fits: 
+
+<img width="2032" height="1024" alt="IMG_1694" src="https://github.com/user-attachments/assets/679531b7-e8bc-40be-8dfe-302ce2f02b76" />
+
+<img width="2024" height="3032" alt="IMG_1695" src="https://github.com/user-attachments/assets/821b40c9-ced5-49e2-983d-438c070639e5" />
+
+
 ### Time and Resources
 
 In total, this project took approximately 12 hours from the initial brainstorming and development of different design ideas through CAD development, multiple design iterations, 3D printing, and fit testing. A significant portion of the time was spent comparing different concepts and making changes between prints to improve the final design.
