@@ -36,6 +36,8 @@ Hand Drawing:
 
 I determined the engineered allowance by comparing the measured dimensions of the Arduino to the dimensions of my CAD model. I added a small amount of clearance so the case could slide over the Arduino without being too tight, while still keeping the fit secure. The allowance was refined through trial and error by testing the printed part and adjusting the dimensions if the fit was too tight or too loose. Think of it as a phone case for the Arduino. 
 
+Constraints were used to control the geometry of the case and maintain the relationships between features. This allowed the geometry to update consistently when the Length and Width parameters were changed.
+
 ## Final CAD design:
 
 <img width="816" height="642" alt="Screenshot 2026-09-29 110928" src="https://github.com/user-attachments/assets/60298a2a-b8ab-4341-9274-2ce3bd80e6fe" />
@@ -87,9 +89,12 @@ No supports were used for the final print, so no support removal was necessary.
 
 The case was placed flat on the print bed with the bottom of the case facing the bed. This provided a large contact area with the print surface and allowed the case to be printed without supports. The orientation also kept the walls and snap-fit features in the intended orientation.
 
+After completing and testing the CAD model, I exported the final part as an STL file and imported it into PrusaSlicer for preparation and printing.
+
 ### Fit Test
 
 After printing, the case was tested on the Arduino Uno R3 to determine whether the dimensions and snap-fit features provided the intended fit.
+Mine snaps into place and stays even when you shake it upside down. 
 
 ### Full Sliced Specs: 
 
@@ -101,5 +106,21 @@ After printing, the case was tested on the Arduino Uno R3 to determine whether t
 
 Video Of printer working: 
 
+<video controls width="320" src="https://github.com/user-attachments/assets/313d81eb-29f4-4d4d-8647-631447d19af8"></video>
+
+### Lessons Learned 
+
+I learned that measurements taken with calipers are not always the final dimensions that should be used in a design. Calipers provide the physical dimensions of the artifact, but the CAD design may need additional clearance, spacing, or other adjustments depending on how the parts interact. The measured dimensions should therefore be treated as a starting point, followed by engineering decisions and physical testing to determine the final design dimensions.
+
+I learned that using parameters made it much easier to modify the design. Instead of changing individual dimensions throughout the model, I could change the main parameters and update the case. This made the design process faster when adjustments were needed.
+
+I learned that a snap fit needs a balance between clearance and retention. If the fit is too tight, the parts can be difficult to assemble or damage the part. If it is too loose, the part will not stay attached. Designing and testing the snap features helped me understand how small changes in dimensions affect the final fit.
+
+I learned that the orientation of a part can greatly affect how it prints. By placing the case flat on the print bed, I was able to print the part without supports. This reduced material usage and eliminated additional post-processing.
+
+One mistake I made was starting with estimated dimensions instead of having all of the required measurements finalized. I corrected this by comparing the CAD model to the actual Arduino and adjusting the parameters as needed. This helped me understand the importance of designing around measured dimensions rather than assumptions.
 
 
+### Time and Resources
+
+In total, this project took approximately 12 hours from the initial brainstorming and development of different design ideas through CAD development, multiple design iterations, 3D printing, and fit testing. A significant portion of the time was spent comparing different concepts and making changes between prints to improve the final design.
