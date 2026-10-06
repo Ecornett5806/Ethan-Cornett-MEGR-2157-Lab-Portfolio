@@ -53,7 +53,7 @@ Industry 2 — Construction and Heavy Equipment
 
 A similar linkage concept could be applied to construction equipment where an attachment needs to follow a controlled path. Examples include positioning small digging, grading, or material-handling attachments. The same basic engineering principle applies: fixed pivot locations and link lengths constrain the output tool to a predictable motion.
 
-Sources: 
+## Sources: 
 
 https://patents.google.com/patent/DE102022111301A1/en (Four-bar linkage mechanism for a tillage machine)
 
@@ -68,15 +68,13 @@ https://www.nature.com/articles/s41467-021-27261-0?utm
 
 https://www.mdpi.com/2075-1702/10/3/198?utm
 
-## Design
+# Design
 
-### Purpose
+## Purpose
 
 The purpose of this mechanism is to demonstrate the basic idea of how a robotic limb can use multiple connected segments to produce controlled movement. The design was developed as a simplified version of the type of articulated motion used in the robotic finger mechanism described in the referenced patent.
 
 The mechanism uses three 3D-printed segments connected by removable pins. Each joint allows the segments to rotate, while mechanical stops limit the amount of movement. The design was intentionally kept simple so the basic motion of a robotic limb could be demonstrated without adding unnecessary complexity.
-
-### Components: 
 
 ### Components
 
@@ -126,14 +124,14 @@ Final Assembly:
 
 ## 3D Print
 
-### Purpose
+## Purpose
 
 The purpose of this mechanism is to demonstrate the basic idea of how a robotic limb can use multiple connected segments to produce controlled movement. The design was inspired by the basic articulated motion of the robotic finger mechanism described in the referenced patent. The mechanism was intentionally simplified to three 3D-printed segments so that the basic motion could be demonstrated without unnecessary complexity.
 
 The three segments are connected with removable pins. The pins allow the segments to rotate relative to each other, while mechanical stops limit the range of motion at each joint.
 
 
-### Components
+## Components
 
 Base segment- Supports the mechanism and connects to the first moving segment	PLA	Printed
 Middle segment- Rotates relative to the base segment	PLA	Printed
@@ -148,7 +146,7 @@ The initial pin diameter was designed as 3.0 mm. The holes were designed slightl
 
 The clearance was selected as a starting value and can be verified with a test print. A small test piece with multiple hole sizes can be printed to compare the fit of the 3.0 mm PETG pin. The final hole size will be selected based on which fit allows the joint to rotate while keeping the segments stable.
 
-### Design Decisions
+## Design Decisions
 
 Three-Segment Design
 
@@ -162,7 +160,7 @@ Decision: Three-segment articulated limb.
 
 The three-segment design was selected because the goal was to demonstrate the basic motion of a robotic limb rather than reproduce the complete mechanism from the referenced patent. Using three segments reduced the number of parts while still providing multiple rotational joints.
 
-### Rounded Pivot Ends
+## Rounded Pivot Ends
 
 Alternatives considered:
 
@@ -176,7 +174,7 @@ The rectangular bodies were simple to model and print, while the rounded ends pr
 
 Printed PETG Flathead Pins
 
-### Alternatives considered:
+## Alternatives considered:
 
 Screws
 Metal pins
@@ -186,7 +184,7 @@ Decision: 3D-printed PETG pins.
 
 PETG pins were selected because they could be printed at the same time as the mechanism and could be removed if the design needed to be modified. Using removable pins also made it possible to assemble the mechanism after printing instead of requiring the joints to be printed as one piece.
 
-### Mechanical Stops
+## Mechanical Stops
 
 Alternatives considered:
 
