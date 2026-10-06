@@ -114,27 +114,27 @@ Images of CAD:
 <img width="998" height="860" alt="Screenshot 2026-10-06 104351" src="https://github.com/user-attachments/assets/2d856820-cb80-433c-8d9d-320063f2ba70" />
 
 
-Final Assembly: 
+## Final Assembly: 
 
 <img width="696" height="686" alt="Screenshot 2026-10-06 000736" src="https://github.com/user-attachments/assets/386eedff-5040-4956-a0ff-cbfba1b9c24a" />
 
 ## 3D Print
 
-Purpose:
+## Purpose:
 
 The purpose of this mechanism is to demonstrate the basic idea of how a robotic limb can use multiple connected segments to produce controlled movement. The design was inspired by the basic articulated motion of the robotic finger mechanism described in the referenced patent. The mechanism was intentionally simplified to three 3D-printed segments so that the basic motion could be demonstrated without unnecessary complexity.
 
 The three segments are connected with removable pins. The pins allow the segments to rotate relative to each other, while mechanical stops limit the range of motion at each joint.
 
 
-Components:
+## Components:
 
 Base segment- Supports the mechanism and connects to the first moving segment	PLA	Printed
 Middle segment- Rotates relative to the base segment	PLA	Printed
 End segment- Rotates relative to the middle segment	PLA	Printed
 Joint pin- Connect the segments and allow rotational movement	PETG	Printed
 
-Tolerances:
+## Tolerances:
 
 The main moving interfaces in the mechanism are the two pin-in-hole joints. The PETG pins need enough clearance inside the PLA holes to allow the segments to rotate without excessive friction.
 
@@ -167,7 +167,7 @@ The rectangular bodies were simple to model and print, while the rounded ends pr
 
 Printed PETG Flathead Pins
 
-## Alternatives considered:
+### Alternatives considered:
 
 | Screws | Metal pins | Flathead Printed Screws |
 |---|---|---|
