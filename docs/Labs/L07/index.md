@@ -66,9 +66,9 @@ https://www.nature.com/articles/s41467-021-27261-0?utm
 
 https://www.mdpi.com/2075-1702/10/3/198?utm
 
-# Design
+## Design
 
-## Purpose
+ Purpose
 
 The purpose of this mechanism is to demonstrate the basic idea of how a robotic limb can use multiple connected segments to produce controlled movement. The design was developed as a simplified version of the type of articulated motion used in the robotic finger mechanism described in the referenced patent.
 
@@ -120,21 +120,21 @@ Final Assembly:
 
 ## 3D Print
 
-## Purpose
+Purpose:
 
 The purpose of this mechanism is to demonstrate the basic idea of how a robotic limb can use multiple connected segments to produce controlled movement. The design was inspired by the basic articulated motion of the robotic finger mechanism described in the referenced patent. The mechanism was intentionally simplified to three 3D-printed segments so that the basic motion could be demonstrated without unnecessary complexity.
 
 The three segments are connected with removable pins. The pins allow the segments to rotate relative to each other, while mechanical stops limit the range of motion at each joint.
 
 
-## Components
+Components:
 
 Base segment- Supports the mechanism and connects to the first moving segment	PLA	Printed
 Middle segment- Rotates relative to the base segment	PLA	Printed
 End segment- Rotates relative to the middle segment	PLA	Printed
 Joint pin- Connect the segments and allow rotational movement	PETG	Printed
 
-Tolerances
+Tolerances:
 
 The main moving interfaces in the mechanism are the two pin-in-hole joints. The PETG pins need enough clearance inside the PLA holes to allow the segments to rotate without excessive friction.
 
@@ -142,7 +142,7 @@ The initial pin diameter was designed as 3.0 mm. The holes were designed slightl
 
 The clearance was selected as a starting value and can be verified with a test print. A small test piece with multiple hole sizes can be printed to compare the fit of the 3.0 mm PETG pin. The final hole size will be selected based on which fit allows the joint to rotate while keeping the segments stable.
 
-## Design Decisions
+### Design Decisions:
 
 Three-Segment Design
 
