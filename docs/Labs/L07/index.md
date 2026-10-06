@@ -67,3 +67,52 @@ https://www.nature.com/articles/s41467-021-27261-0?utm
 [4] Hosseini, H., Farzad, A., Majeed, F., Hensel, O., & Nasirahmadi, A. “Multi-Objective Optimal Design and Development of a Four-Bar Mechanism for Weed Control.” Machines, 2022. This paper examines a four-bar mechanism specifically for agricultural weed-control applications.
 
 https://www.mdpi.com/2075-1702/10/3/198?utm
+
+## Design
+
+### Purpose
+
+The purpose of this mechanism is to demonstrate the basic idea of how a robotic limb can use multiple connected segments to produce controlled movement. The design was developed as a simplified version of the type of articulated motion used in the robotic finger mechanism described in the referenced patent.
+
+The mechanism uses three 3D-printed segments connected by removable pins. Each joint allows the segments to rotate, while mechanical stops limit the amount of movement. The design was intentionally kept simple so the basic motion of a robotic limb could be demonstrated without adding unnecessary complexity.
+
+### Components: 
+
+Base segment	Supports the mechanism and connects to the first moving joint	PLA	Printed
+Middle segment- Rotates relative to the base segment	PLA	Printed
+End segment- Rotates relative to the middle segment to demonstrate additional limb motion	PLA	Printed
+Joint pin- Connect the segments and allow rotational motion	PETG	Printed
+
+1. Three segments instead of a more complex multi-link system
+
+I chose three because the goal was to demonstrate the basic concept of articulated robotic-limb motion rather than recreate the full patent mechanism.
+
+2. Rounded ends with pin holes
+
+This allows the segments to rotate around the pins while keeping the parts simple to print.
+
+3. Mechanical stops
+
+These limit the rotation of the joints and make the movement controlled rather than allowing the segments to rotate freely.
+
+Images of CAD: 
+
+<img width="850" height="380" alt="Screenshot 2026-10-05 235240" src="https://github.com/user-attachments/assets/3be794b6-911c-4d91-bb4c-5dd61e0f67ee" />
+
+<img width="724" height="256" alt="Screenshot 2026-10-05 235254" src="https://github.com/user-attachments/assets/9fc72c00-7c2b-4ed5-af8e-80acdbf29be6" />
+
+<img width="816" height="540" alt="Screenshot 2026-10-05 235310" src="https://github.com/user-attachments/assets/d09efbff-2751-4226-a6c3-5d016544b9f8" />
+
+<img width="810" height="494" alt="Screenshot 2026-10-05 235317" src="https://github.com/user-attachments/assets/f6d1d860-f142-4d45-9aa8-57c33a118118" />
+
+<img width="874" height="796" alt="Screenshot 2026-10-05 235403" src="https://github.com/user-attachments/assets/3689bb93-a695-4496-b2a8-9cdf5372a47e" />
+
+<img width="778" height="258" alt="Screenshot 2026-10-05 235415" src="https://github.com/user-attachments/assets/5a471693-eb98-43f9-abd4-390aeb845518" />
+
+<img width="838" height="504" alt="Screenshot 2026-10-05 235441" src="https://github.com/user-attachments/assets/238a96f4-0a4f-48b4-9368-18e57f3e05f2" />
+
+<img width="764" height="346" alt="Screenshot 2026-10-05 235447" src="https://github.com/user-attachments/assets/e01ccb66-d5c1-46cc-a6a2-d284507ac67c" />
+
+Final Assembly: 
+
+<img width="696" height="686" alt="Screenshot 2026-10-06 000736" src="https://github.com/user-attachments/assets/386eedff-5040-4956-a0ff-cbfba1b9c24a" />
