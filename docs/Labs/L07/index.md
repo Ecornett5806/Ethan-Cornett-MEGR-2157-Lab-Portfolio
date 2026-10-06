@@ -1,6 +1,5 @@
 # A7 Linkage Mechanism:
 
-
 ## Research:
 
 Patent 1: Linkage Mechanism, Robotic Finger and Robot
@@ -26,7 +25,6 @@ This mechanism can be used in industrial and service robots that need controlled
 Industry 2 — Medical Devices and Prosthetics
 
 The same principle can be used in prosthetic hands and other assistive devices. A 3D-printed robotic hand study used four-bar linkages to reproduce finger movement and reported that the mechanism could be fabricated using 3D printing. Four-bar mechanisms have also been studied for prosthetic fingers because they can provide controlled flexion and extension with relatively simple mechanical structures.
-
 
 Patent 2: Four-Bar Linkage Mechanism for a Tillage Machine
 
@@ -120,8 +118,6 @@ Final Assembly:
 
 <img width="696" height="686" alt="Screenshot 2026-10-06 000736" src="https://github.com/user-attachments/assets/386eedff-5040-4956-a0ff-cbfba1b9c24a" />
 
-
-
 ## 3D Print
 
 ## Purpose
@@ -151,10 +147,8 @@ The clearance was selected as a starting value and can be verified with a test p
 Three-Segment Design
 
 Alternatives considered:
-
-A more complex multi-segment robotic finger
-A four-bar linkage
-A three-segment articulated limb
+| A more complex multi-segment robotic finger | A four-bar linkage | A three-segment articulated limb |
+|---|---|---|
 
 Decision: Three-segment articulated limb.
 
@@ -164,9 +158,8 @@ The three-segment design was selected because the goal was to demonstrate the ba
 
 Alternatives considered:
 
-Fully rectangular ends
-Fully cylindrical segments
-Rectangular segments with rounded pivot ends
+| Fully rectangular ends | Fully cylindrical segments | Rectangular segments with rounded pivot ends |
+|---|---|---|
 
 Decision: Rectangular segments with rounded pivot ends.
 
@@ -176,9 +169,8 @@ Printed PETG Flathead Pins
 
 ## Alternatives considered:
 
-Screws
-Metal pins
-3D-printed PETG pins
+| Screws | Metal pins | Flathead Printed Screws |
+|---|---|---|
 
 Decision: 3D-printed PETG pins.
 
@@ -187,10 +179,8 @@ PETG pins were selected because they could be printed at the same time as the me
 ## Mechanical Stops
 
 Alternatives considered:
-
-No rotation limit
-External stops
-Integrated stops
+| No rotation limit | External stops | Integrated stops |
+|---|---|---|
 
 Decision: Integrated mechanical stops.
 
