@@ -1,4 +1,4 @@
-# A7 Linkage M<mechanism:
+# A7 Linkage Mechanism:
 
 
 ## Research:
