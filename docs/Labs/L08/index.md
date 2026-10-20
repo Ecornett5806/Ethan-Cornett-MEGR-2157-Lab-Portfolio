@@ -117,3 +117,15 @@ The phone holder was printed upright with its base flat against the build plate.
 ## Print Results:
 
 <img width="3024" height="4032" alt="IMG_1795" src="https://github.com/user-attachments/assets/1ea7832e-3cfe-488d-9eb9-82c9b396e89e" />
+
+Lessons Learned
+
+Throughout the design and manufacturing process, I learned that planning the placement of features is important before beginning the final CAD model. One improvement I would make is raising the bottom of the phone holder so that the charging cord could fit underneath the base without being blocked. This would make the design more practical because the phone could remain on the holder while charging, without the cord interfering with the base or desk.
+
+Another lesson I learned was to center the main body of the design before adding the columns. Centering the design earlier would have made it easier to position the columns correctly and keep the overall model aligned. By not completing this step first, I made the modeling process more difficult than necessary. In future designs, I would check the alignment and placement of the main features before adding smaller details.
+
+Overall, this project taught me the importance of considering how a design will be used in real life, not just how it looks in CAD. I learned that small changes in feature placement can make a significant difference in functionality and ease of assembly. I would apply these lessons to future projects by planning cable clearance, checking dimensions, and confirming that the main features are centered before moving on to more detailed modeling.
+
+Total Time and Resources
+
+The total time spent on the project was approximately 7 hours, including brainstorming, CAD design, and 3D printing. The resources used included CAD software for designing and modifying the model and a 3D printer for manufacturing the final part.
