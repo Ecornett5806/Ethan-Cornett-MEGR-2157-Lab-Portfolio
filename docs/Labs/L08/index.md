@@ -91,4 +91,29 @@ The final CAD view shows the completed frame, including the base, tall support s
 
 <img width="768" height="938" alt="Screenshot 2026-10-19 165242" src="https://github.com/user-attachments/assets/ce29c69d-d5e6-47bb-8f52-8bd7d7e493ff" /> 
 
-3D- Print Part: 
+## 3D- Print Part: 
+
+The phone holder was sliced in PrusaSlicer and prepared for printing on printer PC-12 using Generic PETG filament. The model was printed directly on the build plate without a raft, with supports generated everywhere to support overhanging geometry. The layer height was set to 0.20 mm, with a 0.20 mm first layer height, and the print used 1,125 layers. The infill density was set to 15%, using a grid pattern for internal support, with monotonic lines for the top surface. The top shell thickness was set to 0.7 mm and the bottom shell thickness to 0.5 mm. The model measured approximately 76.45 × 77.47 × 166.12 mm. PrusaSlicer estimated a print time of 3 hours and 17 minutes, using approximately 74.61 g of filament. These settings balanced print time, material use, and the structural support needed for the phone holder's tall frame and extended beams.
+
+<img width="2560" height="1524" alt="Screenshot 2026-10-19 204810" src="https://github.com/user-attachments/assets/65e9170a-8c1d-40cf-80b1-83a6f8a33ae8" />
+
+<img width="1338" height="1218" alt="Screenshot 2026-10-19 204816" src="https://github.com/user-attachments/assets/968344ff-27b6-44e1-9807-f5e141f71b09" />
+
+<img width="962" height="356" alt="Screenshot 2026-10-19 204832" src="https://github.com/user-attachments/assets/af297001-5d77-4662-963a-70f2df8bd82e" />
+
+<img width="1026" height="410" alt="Screenshot 2026-10-19 204838" src="https://github.com/user-attachments/assets/110b6f31-ae1c-45c6-9913-ad6cbabeeb32" />
+
+<img width="782" height="332" alt="Screenshot 2026-10-19 204844" src="https://github.com/user-attachments/assets/acbdb75a-2fe4-4a7f-80fc-69489e4c572f" />
+
+
+## Surface Finish and Support Removal
+
+The support structures were removed by hand and came off easily. No additional surface finishing or cleanup was needed after removing the supports because the contact areas did not require further work.
+
+## Build Orientation and Layout
+
+The phone holder was printed upright with its base flat against the build plate. This orientation provided a stable foundation for the print while keeping the model within the printer's build area. Keeping the base flat also helped avoid a more time-consuming print setup and allowed the tall support frame and extended beams to be printed in their intended orientation. Supports were generated to help print overhanging sections of the design.
+
+## Print Results:
+
+<img width="3024" height="4032" alt="IMG_1795" src="https://github.com/user-attachments/assets/1ea7832e-3cfe-488d-9eb9-82c9b396e89e" />
