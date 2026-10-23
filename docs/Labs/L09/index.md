@@ -25,4 +25,4 @@ cut measurements:
 19.90mm by 19.98mm
 
 Kerf Calculation: 
-.1 by .02 Kerf: 
+Kerf: .1 mm by .02 mm 
