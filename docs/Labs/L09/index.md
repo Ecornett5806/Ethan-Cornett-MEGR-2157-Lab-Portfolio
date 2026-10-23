@@ -7,6 +7,22 @@ The kit must include: At least 3 unique part types. At least 8 total pieces. At 
 
 ## Analyze: 
 
+Step 1: Measure your material:
+We need to know what the thickness of the boards we are making our designs out of.  
+Thickness: 
+Sheet 1: .105 in 
+sheet 2: .108 in
+sheet 3: .107 in
+Average sheet thickness: .107 in - 2.7178 mm
 
 
+Step 2: Measure the kerf of a 20mm-by-20mm square:
 
+Nominal measurements: 
+20mm by 20mm 
+
+cut measurements: 
+19.90mm by 19.98mm
+
+Kerf Calculation: 
+.1 by .02 Kerf: 
