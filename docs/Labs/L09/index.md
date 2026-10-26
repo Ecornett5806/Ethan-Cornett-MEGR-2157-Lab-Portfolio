@@ -26,3 +26,18 @@ cut measurements:
 
 Kerf Calculation: 
 Kerf: .1 mm by .02 mm 
+
+
+Step 3: 
+
+There were 3 fits to make, a tight fit, a target fit, and a loose fit. I began with the tight fit using the calculations below, where K is the kerf and D is the clearance or distance between the pegs.
+
+Tight Fit: D = t<sub>average</sub>+ x<sub>0</sub> - K<sub>k</sub> - .05 mm
+
+Normal Fit: D = t<sub>average</sub>+ x<sub>0</sub> - K<sub>k</sub>
+
+Loose Fit: D= t<sub>average</sub>+ x<sub>0</sub> - K<sub>k</sub> + .05 mm
+ 
+tight:
+target:
+loose: 
