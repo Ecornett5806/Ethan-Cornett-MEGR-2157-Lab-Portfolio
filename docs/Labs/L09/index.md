@@ -85,17 +85,19 @@ Next I created a sketch for the square shaped piece to be designed, which is sho
 | Material type |wood |wood | wood |
 | Nominal thickness | 1/8th inch | 1/8th inch | 1/8th inch |
 | Measured thickness (mean) | 2.709 mm | 2.709 mm | 2.709 mm |
-| Speed | 30% | 30% | 30%|
-| Power | | | |
-| Frequency or PPI (if applicable) | | | |
-| Number of passes | | | |
-| Focus method and how you confirmed it | | | |
-| Air assist on? Exhaust on? | | | |
-| How you set origin and alignment | | | |
+| Speed | 20% | 20% | 20%|
+| Power | 100% | 100% |100%|
+| Frequency or PPI (if applicable) | 20% | 20% |20% |
+| Number of passes | 1 | 1 | 1 |
+| Focus method and how you confirmed it | Vector | Vector| Vector |
+| Air assist on? Exhaust on? | Yes | Yes | Yes |
+| How you set origin and alignment | Auto focus | Auto Focus | Auto Focus |
 
 <img width="596" height="772" alt="Screenshot 2026-10-26 144114" src="https://github.com/user-attachments/assets/a8c7a498-c1f4-43dc-add3-fe71e7b73fb2" />
 
-Lessons Learned
+<img width="862" height="808" alt="image" src="https://github.com/user-attachments/assets/1e08a7de-4694-44a9-9987-c81d7834584e" />
+
+## Lessons Learned
 
 10/23/26 - Completed Steps 1 and 2 and the documentation for these steps. This took roughly 2 hours.
 
@@ -104,3 +106,22 @@ Lessons Learned
 10/27/26 - Performed final cut and finished documentation. This took roughly 1 hour.
 
 I learned several lessons throughout this project.
+
+Writing
+
+
+
+
+## REFLECTION: Questions 
+
+Reflection 1: Measured Values Versus Assumptions
+The material was labeled with a nominal thickness, but my measurements showed that the actual thickness varied between sheets. The three measurements were 0.105 in, 0.108 in, and 0.107 in, giving an average thickness of approximately 0.1067 in (2.709 mm). My 20 mm kerf coupon also measured 19.90 mm in the X direction and 19.98 mm in the Y direction, producing dimensional differences of 0.10 mm and 0.02 mm, respectively. These results showed that the material and cutting process did not produce exactly the nominal dimensions. If I had relied on assumed values instead of measurements, my slots and tabs could have been too tight or too loose, making assembly more difficult or causing the joints to fit together unreliably.
+
+Reflection 2: Taguchi's Quality Loss Function
+Taguchi's quality loss function explains that a product can create a loss when its performance differs from the intended target, even if it still functions. In my construction kit, the tab-and-slot joint is an example of a feature that needs to fit close to its intended clearance. A joint that fits but requires more pressure than intended, or one that is slightly loose, does not achieve the target fit. If thousands of these parts were manufactured, small dimensional variations could lead to inconsistent assembly, increased labor, rework, and wasted material. Testing different clearances before the final cut helped reduce the chance of these problems.
+
+Reflection 3: Real-World Application
+Flat-pack furniture is a real-world example of a product that uses sheet parts joined through tabs, slots, and other fitted connections. The dimensions of these features affect how easily the furniture can be assembled and how securely the pieces connect. If the material is thicker than expected or the laser kerf is not properly accounted for, the slots may be too narrow or too wide. Customers could experience difficulty assembling the furniture, loose connections, misaligned panels, or reduced stability. Measuring the material and testing the fit before production helps prevent these problems.
+
+Reflection 4: One More Cut
+If I had one more cut, I would make another fit coupon with smaller clearance increments around the selected 0.002 in (0.0508 mm) clearance. This would allow me to compare the joint fits more precisely and determine whether a slightly tighter or looser fit provides the best balance between easy assembly and connection strength. I would measure and test each joint, record the results, and use the best-performing clearance in the final CAD model. This additional test could improve fit consistency and reduce the need for adjustments during assembly.
