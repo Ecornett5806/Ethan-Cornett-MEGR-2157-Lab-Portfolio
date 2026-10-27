@@ -51,6 +51,10 @@ Fit Test
 
 <img width="417" height="206" alt="image" src="https://github.com/user-attachments/assets/1b84c188-337d-4bdd-8173-0323797612a7" />
 
+<img width="596" height="772" alt="Screenshot 2026-10-26 144114" src="https://github.com/user-attachments/assets/a8c7a498-c1f4-43dc-add3-fe71e7b73fb2" />
+
+<img width="3024" height="4032" alt="IMG_1911" src="https://github.com/user-attachments/assets/ffaf1dd5-1235-49cb-802f-c817b88d3257" />
+
 ## Step 4: Choose your clearance.
 Choosing the Clearance
 The fit test showed that the best clearance was between the 0 and .005 mm range. The chosen clearance was .002 in order to balance having too much clearance and too little. This will allow the parts to fall in with only minor pressure but will prevent them from falling apart easily.
@@ -79,6 +83,12 @@ Next I created a sketch for the square shaped piece to be designed, which is sho
 
 ### Laser Process Record
 
+Process Research: Laser Cutting Compared with FDM Printing
+
+Laser cutting uses a focused laser beam to cut material along a programmed two-dimensional path. The laser removes material along the cutting path, allowing flat components to be produced with repeatable dimensions. It is suitable for this project because the construction kit uses flat pieces connected by slots and tabs. However, the finished dimensions depend on material thickness, kerf, machine settings, and focus.
+
+Compared with FDM 3D printing, laser cutting can produce flat components quickly because it does not need to build each part layer by layer. Laser cutting is limited to flat sheet materials and two-dimensional cutting paths, while FDM printing can produce more complex three-dimensional shapes. For this project, laser cutting was a practical manufacturing method because the components could be cut from a sheet and assembled into a three-dimensional kit.
+
 | Setting | Kerf Coupon | Fit Coupon | Final Cut |
 |:---|:---|:---|:---|
 | Laser cutter (#4) | #4 | #4 | #4 |
@@ -93,13 +103,18 @@ Next I created a sketch for the square shaped piece to be designed, which is sho
 | Air assist on? Exhaust on? | Yes | Yes | Yes |
 | How you set origin and alignment | Auto focus | Auto Focus | Auto Focus |
 
-<img width="596" height="772" alt="Screenshot 2026-10-26 144114" src="https://github.com/user-attachments/assets/a8c7a498-c1f4-43dc-add3-fe71e7b73fb2" />
+## Final CAD Images for all 3 Parts: 
 
 <img width="862" height="808" alt="image" src="https://github.com/user-attachments/assets/1e08a7de-4694-44a9-9987-c81d7834584e" />
 
 <img width="875" height="643" alt="image" src="https://github.com/user-attachments/assets/4c5a94a9-edc6-4d63-99a7-a16e991589d8" />
 
 <img width="813" height="603" alt="image" src="https://github.com/user-attachments/assets/97d9e136-e071-4bed-884a-d332890864ff" />
+
+<img width="768" height="350" alt="image" src="https://github.com/user-attachments/assets/62538434-cc97-4f0f-83cd-0b08b299abf9" />
+
+<img width="3024" height="4032" alt="IMG_1912" src="https://github.com/user-attachments/assets/8973adbc-68c1-4629-a841-a19e080a72f5" />
+
 
 ## Lessons Learned
 
@@ -109,11 +124,15 @@ Next I created a sketch for the square shaped piece to be designed, which is sho
 
 10/27/26 - Performed final cut and finished documentation. This took roughly 1 hour.
 
-I learned several lessons throughout this project.
+## I learned several lessons throughout this project: Including: 
 
-Writing
+Laser positioning: Make sure the laser cutter is properly positioned and aligned with the material before starting the cut. This helps prevent cutting errors and ensures the parts remain within the usable area of the sheet.
 
+Material efficiency: Arrange parts close to one another in the cutting layout to reduce wasted material. Maintain enough spacing between parts to account for the laser kerf and prevent overlapping cuts.
 
+Parametric design: Build the model parametrically before connecting the parts into the final assembly. Using variables and equations makes it easier to adjust material thickness, slot widths, and clearances without manually changing every dimension.
+
+These lessons showed me that successful laser cutting requires more than creating the CAD geometry. Proper machine setup, efficient material layout, and a well-organized parametric model all contribute to accurate parts and reliable assembly.
 
 
 ## REFLECTION: Questions 
