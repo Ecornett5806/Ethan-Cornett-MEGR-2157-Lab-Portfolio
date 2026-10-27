@@ -97,6 +97,10 @@ Next I created a sketch for the square shaped piece to be designed, which is sho
 
 <img width="862" height="808" alt="image" src="https://github.com/user-attachments/assets/1e08a7de-4694-44a9-9987-c81d7834584e" />
 
+<img width="875" height="643" alt="image" src="https://github.com/user-attachments/assets/4c5a94a9-edc6-4d63-99a7-a16e991589d8" />
+
+<img width="813" height="603" alt="image" src="https://github.com/user-attachments/assets/97d9e136-e071-4bed-884a-d332890864ff" />
+
 ## Lessons Learned
 
 10/23/26 - Completed Steps 1 and 2 and the documentation for these steps. This took roughly 2 hours.
