@@ -76,6 +76,22 @@ Picture of all of our parts in Preform:
 
 <img width="1911" height="965" alt="image" src="https://github.com/user-attachments/assets/7fb81fe0-bf6d-428b-919d-3b1ed483b436" />
 
+Post Processing:
+
+The first process was to use the scrapers and removal tools to remove the part from the build plate and then remove the supports.
+
+<img width="418" height="560" alt="image" src="https://github.com/user-attachments/assets/b94780cd-32ae-4caa-9c38-127758e212a3" />
+
+The second process was using an alcohol bath to wash the part.
+
+<img width="416" height="557" alt="image" src="https://github.com/user-attachments/assets/34244403-7291-4d14-92b8-9c5c6874aed9" />
+
+The last step was to put the parts in a curing oven.
+
+<img width="415" height="562" alt="image" src="https://github.com/user-attachments/assets/90484345-e9a9-41d5-8f7e-94bf5e5c831f" />
+
+Deviations were significant from nominal values. around .005 inches.
+
 Final Part and Fit: 
 
 <img width="3024" height="4032" alt="81535257520__033A0284-7987-4FE4-B7F0-537382A2CC6E" src="https://github.com/user-attachments/assets/feafc43e-7b70-46b6-a59d-9211fd1f733c" />
