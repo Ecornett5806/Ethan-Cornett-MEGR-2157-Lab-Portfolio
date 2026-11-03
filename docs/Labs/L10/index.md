@@ -28,6 +28,34 @@ SLA resin printing can introduce dimensional changes during printing, washing, a
 
 The final fit will be evaluated by measuring both printed components and testing how smoothly the piston moves inside the cylinder. The measured dimensions will be compared with the RC 2 tolerance limits to determine how closely the printed parts match the intended fit.
 
+CAD: 
+Cylinder CAD:
+
+<img width="508" height="380" alt="image" src="https://github.com/user-attachments/assets/9dd088c9-b070-485b-9417-34805abd234f" />
+
+<img width="472" height="396" alt="image" src="https://github.com/user-attachments/assets/a986094b-7067-4dea-a9fc-f0abed7aecdd" />
+
+<img width="648" height="526" alt="image" src="https://github.com/user-attachments/assets/49afa669-64b3-4bb0-a8d4-3d0aa2b4e5f4" />
+
+<img width="1428" height="1080" alt="image" src="https://github.com/user-attachments/assets/0063608a-2030-43a8-bc1e-c74efe11d6f0" />
+
+<img width="1282" height="794" alt="image" src="https://github.com/user-attachments/assets/ed711b86-b283-4d77-a43d-c409fb707aaa" />
+
+<img width="1178" height="866" alt="image" src="https://github.com/user-attachments/assets/ea16bdde-e527-412f-afbe-8910d7aa52be" />
+
+<img width="900" height="962" alt="image" src="https://github.com/user-attachments/assets/c31230e4-d7ce-496b-81f3-6b15c344808c" />
+
+<img width="994" height="932" alt="image" src="https://github.com/user-attachments/assets/f95cb8f4-6785-457a-bb13-eb824c44a8c9" />
+
+Piston CAD: 
+
+<img width="572" height="568" alt="image" src="https://github.com/user-attachments/assets/dde46088-1935-4315-b8ec-daa930b37d31" />
+
+<img width="1146" height="770" alt="image" src="https://github.com/user-attachments/assets/0b81137f-5e47-4e5a-ac08-fd79e4044721" />
+
+<img width="1106" height="786" alt="image" src="https://github.com/user-attachments/assets/9f639cb4-eff8-43b7-913b-3763ea9a6bee" />
+
+<img width="988" height="712" alt="image" src="https://github.com/user-attachments/assets/0fe439a3-7d81-4bdd-9bf3-8fbf1453850f" />
 
 ## Communicate
 
