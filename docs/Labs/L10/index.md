@@ -68,7 +68,11 @@ Then I made the base of the screw by putting a Flat head on the pin with a diame
 
 ## Preprocessing 
 
+Picture of my parts in Preform:
+
 <img width="2560" height="1416" alt="image" src="https://github.com/user-attachments/assets/37af5532-5bce-49dd-9b6e-d130df293b9e" />
+
+Picture of all of our parts in Preform:
 
 <img width="1911" height="965" alt="image" src="https://github.com/user-attachments/assets/7fb81fe0-bf6d-428b-919d-3b1ed483b436" />
 
