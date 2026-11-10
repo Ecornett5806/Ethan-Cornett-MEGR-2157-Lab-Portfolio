@@ -148,4 +148,161 @@ The opening and beam dimensions will determine the amount of expansion required 
 
 The final clearance/interference will be documented using the CAD dimensions and evaluated during physical assembly testing.
 
+7. PreForm Slicer Settings and Print Details
+
+The following information was recorded from the PreForm software:
+
+| Parameter | Recorded Value |
+|:---|:---|
+| Printer | Formlabs Form 4 |
+| Resin | Grey V5 |
+| Layer Thickness | 0.100 mm |
+| Print Settings | Default |
+| Estimated Print Time | Approximately 2 hours |
+| Total Build Volume | 102.00 mL |
+| Model Volume | 73.57 mL |
+| Support Volume | 11.42 mL |
+| Raft Volume | 17.01 mL |
+| Total Layers | 811 |
+| Support Touchpoints | 329 |
+| Number of Model Files | 4 |
+
 <img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/efd1966f-f0b2-4e34-b374-4fa40f1662f7" />
+
+Preprocessing Summary
+
+The preprocessing stage established the printing orientation, support structures, resin selection, and resolution settings for the snap-fit shelf. The Form 4 and Grey V5 resin were selected to produce accurate components with a smooth surface finish.
+
+The final build was arranged with four model files, used a 0.100 mm layer thickness, and had an estimated print time of approximately two hours.
+
+The main design consideration during preprocessing was maintaining the geometry of the C-shaped socket while ensuring that its thin 0.025-inch wall could be printed successfully. The printed parts would then be evaluated after washing and curing to determine whether the socket provided sufficient flexibility and retention during assembly.
+
+## Post Processing: 
+
+## 1. Washing Process
+
+After printing, the components were removed from the build platform and prepared for washing. Washing removes uncured resin remaining on the surfaces of the printed parts. This step is important because leftover resin can affect surface quality, dimensional accuracy, and the final curing process.
+
+The components were washed for 5 minutes to remove excess resin from their surfaces. After washing, the parts were prepared for the curing stage.
+
+| Parameter | Recorded Information |
+|:---|:---|
+| Washing duration | 5 minutes |
+| Washing method | Resin washing process |
+| Material | Grey V5 |
+| Printer | Formlabs Form 4 |
+
+**Figure 1. Washing Process**
+
+[Insert photograph of the components during washing.]
+
+## 2. Support Removal
+
+After washing, the support structures were removed from the printed components. Supports were used during printing to maintain stability and prevent unsupported areas from shifting.
+
+Extra care was taken when removing supports around the C-shaped cylindrical socket because its wall thickness is only 0.025 inches (0.635 mm). Applying too much force during removal could damage the thin walls or affect the dimensions of the snap-fit opening.
+
+After removal, the components were inspected for remaining support marks and visible damage.
+
+| Parameter | Recorded Information |
+|:---|:---|
+| Removal method | Spatula |
+| Tools used | Spatula |
+| Areas requiring extra care | C-shaped socket and cylindrical opening |
+
+**Figure 2. Support Removal**
+
+<img width="2284" height="3712" alt="IMG_1986" src="https://github.com/user-attachments/assets/7a782f9d-ab52-40f3-9271-c5d1b3861f3c" />
+
+## 3. Curing Process
+
+After washing and support removal, the components were placed in the curing equipment for 5 minutes. Curing uses additional light exposure to complete the polymerization process within the resin.
+
+After curing, the material became slightly harder and less elastic. This change is important because the C-shaped socket relies on flexibility to expand around the cylindrical beam during assembly.
+
+Although the curing process improved the rigidity of the components, the reduction in elasticity meant that the socket could tolerate less deformation before becoming susceptible to damage.
+
+| Parameter | Recorded Information |
+|:---|:---|
+| Curing duration | 5 minutes |
+| Material | Grey V5 |
+| Observed change | Slightly harder and less elastic |
+| Curing equipment | [Enter equipment used] |
+
+**Figure 3. Curing Process**
+
+<img width="2284" height="3712" alt="IMG_1987" src="https://github.com/user-attachments/assets/f01b2ced-f444-47d1-aca3-dea58a689287" />
+
+<img width="2284" height="3712" alt="IMG_1988" src="https://github.com/user-attachments/assets/ef1e1104-0e90-42b5-afe5-14eb06b3392e" />
+
+Pictures of the parts after 3D printing:
+
+<img width="1024" height="2032" alt="IMG_1984" src="https://github.com/user-attachments/assets/d13074d3-1f83-434b-bb6b-09330614f789" />
+
+<img width="2284" height="3712" alt="IMG_1985" src="https://github.com/user-attachments/assets/16a0568d-1d75-450c-9b70-9d3ed7074be2" />
+
+
+# Validation
+
+## 1. Snap-Fit Testing
+
+The printed snap-fit components were tested to determine whether the C-shaped cylindrical socket could securely engage with the cylindrical beam. The intended function was for the socket to expand during installation and return toward its original shape to retain the beam.
+
+During testing, the components did not successfully fit together. The cylindrical beam could not properly engage with the semi-circular socket, preventing the snap-fit mechanism from functioning as intended.
+
+## 2. Fit Evaluation
+
+The primary issue observed during testing was that the socket geometry did not provide the intended engagement with the cylindrical beam.
+
+The design used a semi-circular opening rather than a more complete circular retaining geometry. This may have contributed to the fitting issue by limiting the amount of contact and retention around the beam.
+
+Additionally, the relatively rigid Grey V5 resin may have made it more difficult for the socket to expand enough during installation, particularly after the curing process reduced its elasticity.
+
+The intended snap engagement was not achieved, so the connection could not be considered secure.
+
+## 3. Design Limitations and Possible Improvements
+
+Several changes could improve the design in a future iteration:
+
+- **Socket geometry:** Modify the semi-circular clip into a more complete C-shaped circular socket to provide greater contact and retention around the cylindrical beam.
+- **Opening diameter:** Adjust the socket opening to provide enough clearance for the beam to enter while maintaining sufficient interference for retention.
+- **Wall thickness:** Reevaluate the 0.025-inch wall thickness to determine whether it provides enough flexibility for the selected resin.
+- **Material flexibility:** Consider the effect of post-curing on the socket's ability to expand during assembly.
+- **Rounded transitions:** Add or increase fillets around the opening to reduce stress concentrations during expansion.
+
+These changes would be evaluated through another CAD iteration and physical print to determine whether they improve engagement and retention.
+
+## 4. Validation Results
+
+| Test Criteria | Result |
+|:---|:---|
+| Snap engages securely | No |
+| Cylindrical beam fits into socket | No |
+| Connection provides sufficient retention | Not achieved |
+| Repeated assembly testing | Not possible |
+| Design adjustments required | Yes |
+| Primary suspected issue | Semi-circular clip geometry |
+
+## 5. Validation Summary
+
+The initial snap-fit design did not achieve the intended connection between the cylindrical beam and socket. Testing showed that the semi-circular clip geometry did not provide the required engagement.
+
+This highlighted the importance of designing the socket opening and retaining geometry around the actual dimensions of the mating cylindrical component. The results also demonstrated how material properties affect snap-fit performance, particularly when using a relatively rigid SLA resin.
+
+Although the initial design was unsuccessful, the testing identified areas for improvement. A future iteration would focus on modifying the socket geometry, adjusting the opening dimensions, and evaluating the flexibility required for successful assembly.
+
+## Lessons Learned
+
+Throughout this project, I learned that designing snap-fit parts for SLA printing requires more consideration than simply making two components fit together in CAD. The design must account for resin flexibility, dimensional accuracy, shrinkage, and clearance. My original design did not snap together successfully. This showed me that a design can look correct in CAD but still fail when it is printed and assembled.
+
+One of the biggest challenges was designing the snap-fit around the flexibility of Grey V5 resin. Unlike a flexible plastic, the cured resin has limited ability to deform before it becomes damaged. The socket must expand enough for the cylindrical beam to enter without cracking or permanently deforming. My original design used a semi-circular socket, and the beam did not engage properly. In a future design, I would use a more complete C-shaped socket with a controlled entrance opening. I would also add more clearance and flexibility so the design does not rely on a perfect fit.
+
+I also learned that SLA printing requires consideration of dimensional variation and shrinkage. The dimensions entered into CAD are not guaranteed to match the final printed dimensions exactly. Instead of designing the beam and socket with almost no clearance, I would include a small amount of additional space and test different clearances. I would print a small set of test pieces before printing the entire artifact. This would help determine how much adjustment is needed for the specific resin, printer, and orientation.
+
+Print orientation is another important factor. The orientation of a part affects how supports are placed, the surface finish, and potentially the strength of the printed feature. Since snap-fit components experience repeated deformation during assembly, the socket should be oriented to reduce unnecessary support marks and avoid placing critical flexible areas in an unfavorable build direction. I would also consider how the part is positioned during printing and post-processing when designing thin sections.
+
+SLA and FDM snap fits also have different design considerations. FDM parts are built from deposited layers of thermoplastic, so layer direction and bonding can affect how a snap-fit bends and where it may break. SLA parts are formed by curing liquid resin with light. They can produce smoother surfaces and finer details, but many standard resins are more rigid and less forgiving when repeatedly bent. Because of this, an FDM snap-fit may be able to tolerate more bending than a similar design made with a rigid SLA resin. The material must be considered when choosing the wall thickness, opening size, and amount of interference.
+
+Finally, this project showed me that cost and print time are not the only resources that matter. The PreForm estimate for the print was approximately two hours, but the full process also required CAD modeling, preparing the print, washing, curing, and checking the final fit. The wash and cure stages each took approximately five minutes. Additional time was spent troubleshooting the design after the parts failed to snap together. A small test print could have used less resin and time than reprinting the entire design after discovering a fit problem.
+
+Overall, my biggest lesson was to design for realistic manufacturing conditions instead of relying on perfect CAD dimensions. For future designs, I would account for dimensional variation, include extra clearance where needed, and make the snap-fit geometry flexible enough to accommodate small differences between parts. I would also test the beam and socket together before committing to the complete design. This would make the final product more reliable and reduce wasted material, time, and effort.
