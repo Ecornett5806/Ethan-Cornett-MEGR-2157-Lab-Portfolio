@@ -76,7 +76,7 @@ The design also considers stress concentrations around the opening and the impor
 
 The completed design will be evaluated through physical testing to determine whether the socket securely retains the cylindrical beam, provides reasonable installation force, and withstands repeated assembly without cracking.
 
-## CAD DESIGN CLIP:
+CAD DESIGN CLIP:
 
 <img width="736" height="380" alt="image" src="https://github.com/user-attachments/assets/bf1133b7-4342-4e10-bf84-29b76b04cd8e" />
 
@@ -90,7 +90,7 @@ The completed design will be evaluated through physical testing to determine whe
 
 <img width="430" height="538" alt="image" src="https://github.com/user-attachments/assets/5838ad58-fe7f-46cc-a9e7-697bba143e9c" />
 
-## CAD DESIGN PILLERS AND BASE: 
+CAD DESIGN PILLERS AND BASE: 
 
 <img width="1244" height="510" alt="image" src="https://github.com/user-attachments/assets/fb028b3e-7415-418f-b7d2-bfc073eefb71" />
 
