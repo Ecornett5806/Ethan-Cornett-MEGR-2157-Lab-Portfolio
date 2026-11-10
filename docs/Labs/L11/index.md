@@ -179,7 +179,7 @@ The main design consideration during preprocessing was maintaining the geometry 
 
 ## Post Processing: 
 
-## 1. Washing Process
+ 1. Washing Process
 
 After printing, the components were removed from the build platform and prepared for washing. Washing removes uncured resin remaining on the surfaces of the printed parts. This step is important because leftover resin can affect surface quality, dimensional accuracy, and the final curing process.
 
@@ -196,7 +196,7 @@ The components were washed for 5 minutes to remove excess resin from their surfa
 
 [Insert photograph of the components during washing.]
 
-## 2. Support Removal
+#2. Support Removal
 
 After washing, the support structures were removed from the printed components. Supports were used during printing to maintain stability and prevent unsupported areas from shifting.
 
@@ -210,11 +210,9 @@ After removal, the components were inspected for remaining support marks and vis
 | Tools used | Spatula |
 | Areas requiring extra care | C-shaped socket and cylindrical opening |
 
-**Figure 2. Support Removal**
-
 <img width="2284" height="3712" alt="IMG_1986" src="https://github.com/user-attachments/assets/7a782f9d-ab52-40f3-9271-c5d1b3861f3c" />
 
-## 3. Curing Process
+3. Curing Process
 
 After washing and support removal, the components were placed in the curing equipment for 5 minutes. Curing uses additional light exposure to complete the polymerization process within the resin.
 
@@ -229,8 +227,6 @@ Although the curing process improved the rigidity of the components, the reducti
 | Observed change | Slightly harder and less elastic |
 | Curing equipment | [Enter equipment used] |
 
-**Figure 3. Curing Process**
-
 <img width="2284" height="3712" alt="IMG_1987" src="https://github.com/user-attachments/assets/f01b2ced-f444-47d1-aca3-dea58a689287" />
 
 <img width="2284" height="3712" alt="IMG_1988" src="https://github.com/user-attachments/assets/ef1e1104-0e90-42b5-afe5-14eb06b3392e" />
@@ -242,15 +238,15 @@ Pictures of the parts after 3D printing:
 <img width="2284" height="3712" alt="IMG_1985" src="https://github.com/user-attachments/assets/16a0568d-1d75-450c-9b70-9d3ed7074be2" />
 
 
-# Validation
+## Validation
 
-## 1. Snap-Fit Testing
+ 1. Snap-Fit Testing
 
 The printed snap-fit components were tested to determine whether the C-shaped cylindrical socket could securely engage with the cylindrical beam. The intended function was for the socket to expand during installation and return toward its original shape to retain the beam.
 
 During testing, the components did not successfully fit together. The cylindrical beam could not properly engage with the semi-circular socket, preventing the snap-fit mechanism from functioning as intended.
 
-## 2. Fit Evaluation
+ 2. Fit Evaluation
 
 The primary issue observed during testing was that the socket geometry did not provide the intended engagement with the cylindrical beam.
 
@@ -260,7 +256,7 @@ Additionally, the relatively rigid Grey V5 resin may have made it more difficult
 
 The intended snap engagement was not achieved, so the connection could not be considered secure.
 
-## 3. Design Limitations and Possible Improvements
+3. Design Limitations and Possible Improvements
 
 Several changes could improve the design in a future iteration:
 
@@ -272,7 +268,7 @@ Several changes could improve the design in a future iteration:
 
 These changes would be evaluated through another CAD iteration and physical print to determine whether they improve engagement and retention.
 
-## 4. Validation Results
+4. Validation Results
 
 | Test Criteria | Result |
 |:---|:---|
@@ -283,7 +279,7 @@ These changes would be evaluated through another CAD iteration and physical prin
 | Design adjustments required | Yes |
 | Primary suspected issue | Semi-circular clip geometry |
 
-## 5. Validation Summary
+5. Validation Summary
 
 The initial snap-fit design did not achieve the intended connection between the cylindrical beam and socket. Testing showed that the semi-circular clip geometry did not provide the required engagement.
 
