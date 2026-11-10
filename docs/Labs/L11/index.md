@@ -76,6 +76,8 @@ The design also considers stress concentrations around the opening and the impor
 
 The completed design will be evaluated through physical testing to determine whether the socket securely retains the cylindrical beam, provides reasonable installation force, and withstands repeated assembly without cracking.
 
+## Design:
+
 CAD DESIGN CLIP:
 
 <img width="736" height="380" alt="image" src="https://github.com/user-attachments/assets/bf1133b7-4342-4e10-bf84-29b76b04cd8e" />
