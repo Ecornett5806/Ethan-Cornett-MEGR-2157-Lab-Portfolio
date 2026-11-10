@@ -240,7 +240,7 @@ Pictures of the parts after 3D printing:
 <img width="2284" height="3712" alt="IMG_1985" src="https://github.com/user-attachments/assets/16a0568d-1d75-450c-9b70-9d3ed7074be2" />
 
 
-## Validation
+## Validation:
 
  1. Snap-Fit Testing
 
@@ -289,7 +289,7 @@ This highlighted the importance of designing the socket opening and retaining ge
 
 Although the initial design was unsuccessful, the testing identified areas for improvement. A future iteration would focus on modifying the socket geometry, adjusting the opening dimensions, and evaluating the flexibility required for successful assembly.
 
-## Lessons Learned
+## Lessons Learned:
 
 Throughout this project, I learned that designing snap-fit parts for SLA printing requires more consideration than simply making two components fit together in CAD. The design must account for resin flexibility, dimensional accuracy, shrinkage, and clearance. My original design did not snap together successfully. This showed me that a design can look correct in CAD but still fail when it is printed and assembled.
 
