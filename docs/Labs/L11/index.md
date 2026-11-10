@@ -196,8 +196,6 @@ The components were washed for 5 minutes to remove excess resin from their surfa
 
 **Figure 1. Washing Process**
 
-[Insert photograph of the components during washing.]
-
 #2. Support Removal
 
 After washing, the support structures were removed from the printed components. Supports were used during printing to maintain stability and prevent unsupported areas from shifting.
