@@ -237,7 +237,6 @@ Pictures of the parts after 3D printing:
 
 <img width="2284" height="3712" alt="IMG_1985" src="https://github.com/user-attachments/assets/16a0568d-1d75-450c-9b70-9d3ed7074be2" />
 
-
 ## Validation:
 
  1. Snap-Fit Testing
