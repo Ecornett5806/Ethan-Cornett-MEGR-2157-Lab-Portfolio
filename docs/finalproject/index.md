@@ -185,6 +185,5 @@ After cutting the bars, I will test their fit to ensure they slide into the base
 ## 6. Video Presentation
 
 
-https://github.com/user-attachments/assets/cb6efa87-d089-4c5d-b207-a62c310920ba
-
+<video controls width="640"><source src="assets/videos/jewelry-holder-github.mp4" type="video/mp4"></video>
 ## Part 2
