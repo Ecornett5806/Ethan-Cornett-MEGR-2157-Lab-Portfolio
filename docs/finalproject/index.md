@@ -156,6 +156,15 @@ My concept is a vertically oriented jewelry holder with multiple storage section
 
 Additional sections will provide storage for bracelets, necklaces, and smaller accessories.
 
+Here were some pictures of my example images that I baised my design after:
+
+<img width="1180" height="1572" alt="C673F42D-B97D-4A9C-8979-829D7ECF05A7" src="https://github.com/user-attachments/assets/cb2c4018-dd3d-4ebb-8867-f3e9f4ee87fd" />
+
+<img width="603" height="1311" alt="Screenshot 2026-11-15 at 9 43 45 PM" src="https://github.com/user-attachments/assets/c68016c0-7fb9-4a09-8e62-9eb7fccd4b2d" />
+
+<img width="2024" height="3032" alt="IMG_2006" src="https://github.com/user-attachments/assets/70a057fa-f995-456d-a42b-b23f92592835" />
+
+
 ### CAD Development
 
 I will develop the design in CAD and make adjustments based on peer feedback and manufacturing limitations. Important considerations include structural strength, print orientation, material thickness, and clearances between the printed frame and laser-cut bars.
