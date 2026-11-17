@@ -170,6 +170,10 @@ My idea is to combine the staircase like design of the first image with the top 
 
 I will develop the design in CAD and make adjustments based on peer feedback and manufacturing limitations. Important considerations include structural strength, print orientation, material thickness, and clearances between the printed frame and laser-cut bars.
 
+Rough CAD design: 
+
+<img width="922" height="796" alt="image" src="https://github.com/user-attachments/assets/64326dfb-70fb-4f68-a581-6e33149b4060" />
+
 ## 5. Testing Critical Features
 
 The main feature I need to test is the connection between the FDM-printed base and laser-cut bars.
