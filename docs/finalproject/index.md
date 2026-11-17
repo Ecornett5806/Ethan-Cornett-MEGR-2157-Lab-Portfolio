@@ -164,6 +164,7 @@ Here were some pictures of my example images that I baised my design after:
 
 <img width="2024" height="3032" alt="IMG_2006" src="https://github.com/user-attachments/assets/70a057fa-f995-456d-a42b-b23f92592835" />
 
+My idea is to combine the staircase like design of the first image with the top bars for bracelets and necklaces from the 2nd and third images. The idea is to combine two great ideas into one. 
 
 ### CAD Development
 
