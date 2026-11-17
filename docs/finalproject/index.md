@@ -184,5 +184,9 @@ After cutting the bars, I will test their fit to ensure they slide into the base
 
 ## 6. Video Presentation
 
-<video controls width="320" src="file:///C:/Users/ethma/Downloads/jewelry_holder_presentation_compressed.mp4"></video>
+
+https://github.com/user-attachments/assets/a484717a-a339-4b27-9c6c-ca45bc767ae0
+
+
+<video controls width="320" src="[file:///C:/Users/ethma/Downloads/jewelry_holder_presentation_compressed.mp4](https://github.com/user-attachments/assets/a484717a-a339-4b27-9c6c-ca45bc767ae0)"></video>
 ## Part 2
