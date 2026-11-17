@@ -184,6 +184,6 @@ After cutting the bars, I will test their fit to ensure they slide into the base
 
 ## 6. Video Presentation
 
-<video controls width="640"><source src="https://github.com/user-attachments/assets/a2d54068-db96-4d95-9aa6-2acbad97820e" type="video/mp4"></video>
+https://github.com/user-attachments/assets/046c3d3e-090f-4d60-8dd3-3d0c0af2cda9
 
 ## Part 2
