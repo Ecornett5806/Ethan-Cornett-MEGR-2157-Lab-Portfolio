@@ -8,7 +8,7 @@ Choose a problem that can be addressed with 3D printing/laser cutting and develo
 
 The problem I am trying to solve with this project is that my sister needs more space to store her jewelry because she has run out of room on her current jewelry holder. Her existing holder does not provide enough storage or organization for all of her accessories. To solve this problem, I plan to design and manufacture an all-in-one jewelry holder that can store multiple types of jewelry, including earrings, bracelets, necklaces, and other small accessories. The design will focus on maximizing storage space while keeping everything organized, accessible, and easy to use. I also want the holder to be visually appealing so that it can serve as both a functional storage solution and a decorative piece for her room.
 
-# Part 1
+## Part 1
 
 ## Research: 
 
