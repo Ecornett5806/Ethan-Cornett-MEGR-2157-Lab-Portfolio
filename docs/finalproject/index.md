@@ -184,7 +184,6 @@ After cutting the bars, I will test their fit to ensure they slide into the base
 
 ## 6. Video Presentation
 
-* Put video Here *
-* 
-The presentation will introduce the need for additional jewelry storage and explain how my design will combine FDM printing and laser cutting to create an organized, all-in-one holder.
+https://github.com/user-attachments/assets/24c330b1-11e5-4a51-bfb0-7d4c82b1594d
+
 ## Part 2
